@@ -1,0 +1,1578 @@
+region,city,category,total_deals,average,Date
+Eastern Province,Al Ahsa,Studio - Residential,119,13884.95146,2019-01-01
+Eastern Province,Al Jubail,Studio - Residential,48,11644.44444,2019-01-01
+Eastern Province,Al Khobar,Studio - Residential,328,13024.09722,2019-01-01
+Eastern Province,Al Khafji,Studio - Residential,3,10066.66667,2019-01-01
+Eastern Province,Dammam,Studio - Residential,543,11609.30876,2019-01-01
+Eastern Province,Al Oyoun,Studio - Residential,1,7000.0,2019-01-01
+Eastern Province,Al Qatif,Studio - Residential,5,8820.0,2019-01-01
+Eastern Province,Al Nairyah,Studio - Residential,2,23400.0,2019-01-01
+Eastern Province,Hafar Al Batin,Studio - Residential,7,13920.0,2019-01-01
+Eastern Province,Ras Tanura,Studio - Residential,15,9857.142857,2019-01-01
+Eastern Province,Al Ahsa,Duplex - Residential,24,21576.69565,2019-01-01
+Eastern Province,Al Jubail,Duplex - Residential,10,30300.0,2019-01-01
+Eastern Province,Al Khobar,Duplex - Residential,52,46759.96,2019-01-01
+Eastern Province,Al Khafji,Duplex - Residential,1,23500.0,2019-01-01
+Eastern Province,Dammam,Duplex - Residential,86,41116.47059,2019-01-01
+Eastern Province,Al Qatif,Duplex - Residential,21,26500.9,2019-01-01
+Eastern Province,Ras Tanura,Duplex - Residential,2,14000.0,2019-01-01
+Eastern Province,Al Ahsa,Floor - Residential,92,14500.86585,2019-01-01
+Eastern Province,Al Jubail,Floor - Residential,4,36750.0,2019-01-01
+Eastern Province,Al Khobar,Floor - Residential,51,29025.64103,2019-01-01
+Eastern Province,Al Khafji,Floor - Residential,2,25000.0,2019-01-01
+Eastern Province,Dammam,Floor - Residential,135,34087.1626,2019-01-01
+Eastern Province,Al Oyoun,Floor - Residential,10,13019.77778,2019-01-01
+Eastern Province,Al Qatif,Floor - Residential,14,22058.42857,2019-01-01
+Eastern Province,Al Qaisumah,Floor - Residential,1,8400.0,2019-01-01
+Eastern Province,Al Nairyah,Floor - Residential,6,17500.0,2019-01-01
+Eastern Province,Buqayq,Floor - Residential,1,27000.0,2019-01-01
+Eastern Province,Hafar Al Batin,Floor - Residential,14,13576.15385,2019-01-01
+Eastern Province,Ras Tanura,Floor - Residential,8,29389.57143,2019-01-01
+Eastern Province,Al Ahsa,Apartment - Residential,2222,13055.69442,2019-01-01
+Eastern Province,Al Jubail,Apartment - Residential,1855,19384.93064,2019-01-01
+Eastern Province,Al Khobar,Apartment - Residential,3275,19945.38665,2019-01-01
+Eastern Province,Al Khafji,Apartment - Residential,80,14358.37288,2019-01-01
+Eastern Province,Dammam,Apartment - Residential,5987,18169.8938,2019-01-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,2,18000.0,2019-01-01
+Eastern Province,Al Oyoun,Apartment - Residential,47,14969.82927,2019-01-01
+Eastern Province,Al Qatif,Apartment - Residential,469,17422.9,2019-01-01
+Eastern Province,Al Qaisumah,Apartment - Residential,22,15594.21053,2019-01-01
+Eastern Province,Al Nairyah,Apartment - Residential,42,13590.52632,2019-01-01
+Eastern Province,Buqayq,Apartment - Residential,10,16054.5,2019-01-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,146,12400.65546,2019-01-01
+Eastern Province,Ras Tanura,Apartment - Residential,260,16616.47706,2019-01-01
+Eastern Province,Al Ahsa,Villa - Residential,10,24100.0,2019-01-01
+Eastern Province,Al Khobar,Villa - Residential,43,62000.11905,2019-01-01
+Eastern Province,Dammam,Villa - Residential,87,49385.3,2019-01-01
+Eastern Province,Al Qatif,Villa - Residential,2,24681.5,2019-01-01
+Eastern Province,Al Qaisumah,Villa - Residential,1,14400.0,2019-01-01
+Eastern Province,Buqayq,Villa - Residential,1,32000.0,2019-01-01
+Eastern Province,Al Ahsa,Studio - Residential,109,11520.89109,2019-04-01
+Eastern Province,Al Jubail,Studio - Residential,45,11831.11111,2019-04-01
+Eastern Province,Al Khobar,Studio - Residential,278,13824.81308,2019-04-01
+Eastern Province,Al Khafji,Studio - Residential,10,11466.66667,2019-04-01
+Eastern Province,Dammam,Studio - Residential,511,11612.21991,2019-04-01
+Eastern Province,Al Qatif,Studio - Residential,6,13240.0,2019-04-01
+Eastern Province,Al Nairyah,Studio - Residential,5,13680.0,2019-04-01
+Eastern Province,Hafar Al Batin,Studio - Residential,29,14896.0,2019-04-01
+Eastern Province,Ras Tanura,Studio - Residential,14,9415.384615,2019-04-01
+Eastern Province,Al Ahsa,Duplex - Residential,14,21392.30769,2019-04-01
+Eastern Province,Al Jubail,Duplex - Residential,8,34000.0,2019-04-01
+Eastern Province,Al Khobar,Duplex - Residential,134,58640.51938,2019-04-01
+Eastern Province,Dammam,Duplex - Residential,110,35775.44762,2019-04-01
+Eastern Province,Al Qatif,Duplex - Residential,11,28111.11111,2019-04-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,1,20000.0,2019-04-01
+Eastern Province,Ras Tanura,Duplex - Residential,3,28833.33333,2019-04-01
+Eastern Province,Al Ahsa,Floor - Residential,77,19895.78082,2019-04-01
+Eastern Province,Al Jubail,Floor - Residential,3,55166.66667,2019-04-01
+Eastern Province,Al Khobar,Floor - Residential,70,32874.5082,2019-04-01
+Eastern Province,Al Khafji,Floor - Residential,3,20266.66667,2019-04-01
+Eastern Province,Dammam,Floor - Residential,175,28183.42763,2019-04-01
+Eastern Province,Al Oyoun,Floor - Residential,9,14314.28571,2019-04-01
+Eastern Province,Al Qatif,Floor - Residential,8,19427.25,2019-04-01
+Eastern Province,Al Qaisumah,Floor - Residential,4,13500.0,2019-04-01
+Eastern Province,Al Nairyah,Floor - Residential,9,14870.0,2019-04-01
+Eastern Province,Buqayq,Floor - Residential,4,24250.0,2019-04-01
+Eastern Province,Hafar Al Batin,Floor - Residential,24,12944.91304,2019-04-01
+Eastern Province,Ras Tanura,Floor - Residential,9,21613.5,2019-04-01
+Eastern Province,Al Ahsa,Apartment - Residential,1926,13437.54174,2019-04-01
+Eastern Province,Al Jubail,Apartment - Residential,1069,20103.08571,2019-04-01
+Eastern Province,Al Khobar,Apartment - Residential,3390,20298.38882,2019-04-01
+Eastern Province,Al Khafji,Apartment - Residential,88,14129.73418,2019-04-01
+Eastern Province,Dammam,Apartment - Residential,6394,18005.67603,2019-04-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,4,16000.0,2019-04-01
+Eastern Province,Al Oyoun,Apartment - Residential,30,17353.76923,2019-04-01
+Eastern Province,Al Qatif,Apartment - Residential,434,17830.98744,2019-04-01
+Eastern Province,Al Qaisumah,Apartment - Residential,8,11550.0,2019-04-01
+Eastern Province,Al Nairyah,Apartment - Residential,59,13156.77083,2019-04-01
+Eastern Province,Buqayq,Apartment - Residential,13,26198.1,2019-04-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,136,11563.15,2019-04-01
+Eastern Province,Ras Tanura,Apartment - Residential,280,16650.56225,2019-04-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,1,12000.0,2019-04-01
+Eastern Province,Al Ahsa,Villa - Residential,9,26383.77778,2019-04-01
+Eastern Province,Al Khobar,Villa - Residential,64,62556.01667,2019-04-01
+Eastern Province,Dammam,Villa - Residential,96,46597.375,2019-04-01
+Eastern Province,Al Qatif,Villa - Residential,7,30300.0,2019-04-01
+Eastern Province,Al Nairyah,Villa - Residential,1,10000.0,2019-04-01
+Eastern Province,Buqayq,Villa - Residential,1,90000.0,2019-04-01
+Eastern Province,Al Ahsa,Studio - Residential,166,11965.43624,2019-07-01
+Eastern Province,Al Jubail,Studio - Residential,47,12674.46809,2019-07-01
+Eastern Province,Al Khobar,Studio - Residential,313,13324.96454,2019-07-01
+Eastern Province,Al Khafji,Studio - Residential,37,11055.88235,2019-07-01
+Eastern Province,Dammam,Studio - Residential,647,12303.8167,2019-07-01
+Eastern Province,Al Oyoun,Studio - Residential,4,27432.0,2019-07-01
+Eastern Province,Al Qatif,Studio - Residential,9,9488.888888,2019-07-01
+Eastern Province,Al Nairyah,Studio - Residential,19,19389.47368,2019-07-01
+Eastern Province,Hafar Al Batin,Studio - Residential,54,13430.76923,2019-07-01
+Eastern Province,Ras Tanura,Studio - Residential,11,10200.0,2019-07-01
+Eastern Province,Al Ahsa,Duplex - Residential,18,23961.22222,2019-07-01
+Eastern Province,Al Jubail,Duplex - Residential,11,31265.88889,2019-07-01
+Eastern Province,Al Khobar,Duplex - Residential,67,50545.63077,2019-07-01
+Eastern Province,Al Khafji,Duplex - Residential,2,37500.0,2019-07-01
+Eastern Province,Dammam,Duplex - Residential,150,40112.35211,2019-07-01
+Eastern Province,Al Qatif,Duplex - Residential,9,23458.25,2019-07-01
+Eastern Province,Buqayq,Duplex - Residential,1,25000.0,2019-07-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,2,20000.0,2019-07-01
+Eastern Province,Ras Tanura,Duplex - Residential,5,20900.0,2019-07-01
+Eastern Province,Al Ahsa,Floor - Residential,96,20495.97647,2019-07-01
+Eastern Province,Al Jubail,Floor - Residential,4,17250.0,2019-07-01
+Eastern Province,Al Khobar,Floor - Residential,86,30897.58904,2019-07-01
+Eastern Province,Al Khafji,Floor - Residential,14,17775.84615,2019-07-01
+Eastern Province,Dammam,Floor - Residential,167,28632.83108,2019-07-01
+Eastern Province,Al Sadowi,Floor - Residential,1,6000.0,2019-07-01
+Eastern Province,Al Oyoun,Floor - Residential,5,20927.2,2019-07-01
+Eastern Province,Al Qatif,Floor - Residential,15,23844.4,2019-07-01
+Eastern Province,Al Qaisumah,Floor - Residential,8,14400.0,2019-07-01
+Eastern Province,Al Nairyah,Floor - Residential,4,26666.66667,2019-07-01
+Eastern Province,Buqayq,Floor - Residential,6,72500.0,2019-07-01
+Eastern Province,Hafar Al Batin,Floor - Residential,31,17237.17241,2019-07-01
+Eastern Province,Ras Tanura,Floor - Residential,5,24200.0,2019-07-01
+Eastern Province,Al Ahsa,Apartment - Residential,2518,13094.81826,2019-07-01
+Eastern Province,Al Jubail,Apartment - Residential,1054,19932.19531,2019-07-01
+Eastern Province,Al Khobar,Apartment - Residential,4170,19917.96974,2019-07-01
+Eastern Province,Al Khafji,Apartment - Residential,184,14048.29299,2019-07-01
+Eastern Province,Dammam,Apartment - Residential,8036,17807.81525,2019-07-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,18,22720.0,2019-07-01
+Eastern Province,Al Oyoun,Apartment - Residential,46,14174.90909,2019-07-01
+Eastern Province,Al Qatif,Apartment - Residential,511,17011.0859,2019-07-01
+Eastern Province,Al Qaisumah,Apartment - Residential,18,12129.93333,2019-07-01
+Eastern Province,Al Nairyah,Apartment - Residential,94,12819.40278,2019-07-01
+Eastern Province,Buqayq,Apartment - Residential,20,17669.78947,2019-07-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,351,12207.70764,2019-07-01
+Eastern Province,Ras Tanura,Apartment - Residential,287,15426.88312,2019-07-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,1,12000.0,2019-07-01
+Eastern Province,Al Ahsa,Villa - Residential,18,20537.0,2019-07-01
+Eastern Province,Al Jubail,Villa - Residential,5,77600.0,2019-07-01
+Eastern Province,Al Khobar,Villa - Residential,76,90100.32857,2019-07-01
+Eastern Province,Al Khafji,Villa - Residential,6,35833.33333,2019-07-01
+Eastern Province,Dammam,Villa - Residential,116,52453.38532,2019-07-01
+Eastern Province,Al Oyoun,Villa - Residential,2,27500.0,2019-07-01
+Eastern Province,Al Qatif,Villa - Residential,4,21750.0,2019-07-01
+Eastern Province,Al Nairyah,Villa - Residential,1,36000.0,2019-07-01
+Eastern Province,Buqayq,Villa - Residential,2,56666.5,2019-07-01
+Eastern Province,Hafar Al Batin,Villa - Residential,3,28333.33333,2019-07-01
+Eastern Province,Al Ahsa,Studio - Residential,174,9231.475409,2019-10-01
+Eastern Province,Al Jubail,Studio - Residential,109,11358.39326,2019-10-01
+Eastern Province,Al Khobar,Studio - Residential,493,12995.18204,2019-10-01
+Eastern Province,Al Khafji,Studio - Residential,26,11591.66667,2019-10-01
+Eastern Province,Dammam,Studio - Residential,1011,11494.83107,2019-10-01
+Eastern Province,Al Oyoun,Studio - Residential,3,10800.0,2019-10-01
+Eastern Province,Al Qatif,Studio - Residential,10,11260.0,2019-10-01
+Eastern Province,Al Nairyah,Studio - Residential,9,16666.66667,2019-10-01
+Eastern Province,Buqayq,Studio - Residential,3,14000.0,2019-10-01
+Eastern Province,Hafar Al Batin,Studio - Residential,48,11589.3617,2019-10-01
+Eastern Province,Ras Tanura,Studio - Residential,19,11600.0,2019-10-01
+Eastern Province,Al Ahsa,Duplex - Residential,16,22075.0,2019-10-01
+Eastern Province,Al Jubail,Duplex - Residential,2,35500.0,2019-10-01
+Eastern Province,Al Khobar,Duplex - Residential,81,51318.58442,2019-10-01
+Eastern Province,Al Khafji,Duplex - Residential,6,27254.4,2019-10-01
+Eastern Province,Dammam,Duplex - Residential,138,52348.80303,2019-10-01
+Eastern Province,Al Qatif,Duplex - Residential,20,29511.3125,2019-10-01
+Eastern Province,Buqayq,Duplex - Residential,1,10000.0,2019-10-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,3,10800.0,2019-10-01
+Eastern Province,Ras Tanura,Duplex - Residential,3,19666.66667,2019-10-01
+Eastern Province,Al Ahsa,Floor - Residential,101,15873.40426,2019-10-01
+Eastern Province,Al Jubail,Floor - Residential,4,18897.33333,2019-10-01
+Eastern Province,Al Khobar,Floor - Residential,74,29711.67797,2019-10-01
+Eastern Province,Al Khafji,Floor - Residential,15,22144.8,2019-10-01
+Eastern Province,Dammam,Floor - Residential,208,33055.07101,2019-10-01
+Eastern Province,Al Oyoun,Floor - Residential,4,15600.0,2019-10-01
+Eastern Province,Al Qatif,Floor - Residential,11,21601.63636,2019-10-01
+Eastern Province,Al Qaisumah,Floor - Residential,10,13577.77778,2019-10-01
+Eastern Province,Al Nairyah,Floor - Residential,8,16109.0,2019-10-01
+Eastern Province,Buqayq,Floor - Residential,7,25571.42857,2019-10-01
+Eastern Province,Hafar Al Batin,Floor - Residential,39,17831.89189,2019-10-01
+Eastern Province,Ras Tanura,Floor - Residential,13,35910.58333,2019-10-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Floor - Residential,1,9600.0,2019-10-01
+Eastern Province,Al Ahsa,Apartment - Residential,2988,12908.31994,2019-10-01
+Eastern Province,Al Jubail,Apartment - Residential,1378,19750.22628,2019-10-01
+Eastern Province,Al Khobar,Apartment - Residential,5892,20668.05094,2019-10-01
+Eastern Province,Al Khafji,Apartment - Residential,155,14824.37607,2019-10-01
+Eastern Province,Dammam,Apartment - Residential,9998,17471.44717,2019-10-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,19,20306.05556,2019-10-01
+Eastern Province,Al Oyoun,Apartment - Residential,56,14659.07692,2019-10-01
+Eastern Province,Al Qatif,Apartment - Residential,738,17669.52174,2019-10-01
+Eastern Province,Al Qaisumah,Apartment - Residential,12,10628.25,2019-10-01
+Eastern Province,Al Nairyah,Apartment - Residential,97,13510.64286,2019-10-01
+Eastern Province,Buqayq,Apartment - Residential,19,22424.22222,2019-10-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,383,12415.15309,2019-10-01
+Eastern Province,Ras Tanura,Apartment - Residential,391,16142.90402,2019-10-01
+Eastern Province,Al Ahsa,Villa - Residential,29,20465.85714,2019-10-01
+Eastern Province,Al Jubail,Villa - Residential,15,69991.28571,2019-10-01
+Eastern Province,Al Khobar,Villa - Residential,89,69759.0,2019-10-01
+Eastern Province,Al Khafji,Villa - Residential,1,36000.0,2019-10-01
+Eastern Province,Dammam,Villa - Residential,135,45730.13793,2019-10-01
+Eastern Province,Al Qatif,Villa - Residential,6,22356.66667,2019-10-01
+Eastern Province,Hafar Al Batin,Villa - Residential,4,21828.25,2019-10-01
+Eastern Province,Al Ahsa,Studio - Residential,219,9696.410256,2020-01-01
+Eastern Province,Al Jubail,Studio - Residential,152,13737.85714,2020-01-01
+Eastern Province,Al Khobar,Studio - Residential,480,13045.24217,2020-01-01
+Eastern Province,Al Khafji,Studio - Residential,50,13371.16279,2020-01-01
+Eastern Province,Dammam,Studio - Residential,900,11260.2642,2020-01-01
+Eastern Province,Al Oyoun,Studio - Residential,3,14400.0,2020-01-01
+Eastern Province,Al Qatif,Studio - Residential,20,12305.55556,2020-01-01
+Eastern Province,Al Qaisumah,Studio - Residential,1,5000.0,2020-01-01
+Eastern Province,Al Nairyah,Studio - Residential,7,18171.42857,2020-01-01
+Eastern Province,Buqayq,Studio - Residential,2,8000.0,2020-01-01
+Eastern Province,Hafar Al Batin,Studio - Residential,89,8965.822784,2020-01-01
+Eastern Province,Ras Tanura,Studio - Residential,8,10200.0,2020-01-01
+Eastern Province,Al Ahsa,Duplex - Residential,30,23821.2,2020-01-01
+Eastern Province,Al Jubail,Duplex - Residential,10,32592.55556,2020-01-01
+Eastern Province,Al Khobar,Duplex - Residential,77,46868.20833,2020-01-01
+Eastern Province,Dammam,Duplex - Residential,168,44188.27389,2020-01-01
+Eastern Province,Al Qatif,Duplex - Residential,27,21432.84615,2020-01-01
+Eastern Province,Al Nairyah,Duplex - Residential,2,24500.0,2020-01-01
+Eastern Province,Buqayq,Duplex - Residential,1,70000.0,2020-01-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,11,12872.72727,2020-01-01
+Eastern Province,Ras Tanura,Duplex - Residential,2,23500.0,2020-01-01
+Eastern Province,Al Ahsa,Floor - Residential,98,18126.49438,2020-01-01
+Eastern Province,Al Jubail,Floor - Residential,4,71500.0,2020-01-01
+Eastern Province,Al Khobar,Floor - Residential,68,31229.17241,2020-01-01
+Eastern Province,Al Khafji,Floor - Residential,10,19800.0,2020-01-01
+Eastern Province,Dammam,Floor - Residential,189,32186.43931,2020-01-01
+Eastern Province,Al Dhibiyah,Floor - Residential,1,20400.0,2020-01-01
+Eastern Province,Al Oyoun,Floor - Residential,7,13793.83333,2020-01-01
+Eastern Province,Al Qatif,Floor - Residential,26,21399.96154,2020-01-01
+Eastern Province,Al Qaisumah,Floor - Residential,11,11145.45455,2020-01-01
+Eastern Province,Al Nairyah,Floor - Residential,12,20964.09091,2020-01-01
+Eastern Province,Buqayq,Floor - Residential,9,24222.22222,2020-01-01
+Eastern Province,Hafar Al Batin,Floor - Residential,50,15340.42553,2020-01-01
+Eastern Province,Ras Tanura,Floor - Residential,18,25818.75,2020-01-01
+Eastern Province,Al Ahsa,Apartment - Residential,3130,12670.06696,2020-01-01
+Eastern Province,Al Jubail,Apartment - Residential,1511,19306.10377,2020-01-01
+Eastern Province,Al Khobar,Apartment - Residential,5575,19660.01314,2020-01-01
+Eastern Province,Al Khafji,Apartment - Residential,185,13801.51299,2020-01-01
+Eastern Province,Dammam,Apartment - Residential,9498,17581.41918,2020-01-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,56,19602.81818,2020-01-01
+Eastern Province,Al Oyoun,Apartment - Residential,59,12577.16667,2020-01-01
+Eastern Province,Al Qatif,Apartment - Residential,919,16746.41184,2020-01-01
+Eastern Province,Al Qaisumah,Apartment - Residential,23,7800.0,2020-01-01
+Eastern Province,Al Nairyah,Apartment - Residential,83,14757.85,2020-01-01
+Eastern Province,Buqayq,Apartment - Residential,84,18518.88889,2020-01-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,634,11233.75094,2020-01-01
+Eastern Province,Ras Tanura,Apartment - Residential,394,15198.19932,2020-01-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,4,9800.0,2020-01-01
+Eastern Province,Mulayjah,Apartment - Residential,2,6750.0,2020-01-01
+Eastern Province,Al Ahsa,Villa - Residential,29,21530.73077,2020-01-01
+Eastern Province,Al Jubail,Villa - Residential,4,69000.0,2020-01-01
+Eastern Province,Al Khobar,Villa - Residential,69,66333.33333,2020-01-01
+Eastern Province,Al Khafji,Villa - Residential,2,35000.0,2020-01-01
+Eastern Province,Dammam,Villa - Residential,102,44949.07368,2020-01-01
+Eastern Province,Al Qatif,Villa - Residential,7,21400.0,2020-01-01
+Eastern Province,Hafar Al Batin,Villa - Residential,2,18545.0,2020-01-01
+Eastern Province,Al Ahsa,Studio - Residential,199,8757.870588,2020-04-01
+Eastern Province,Al Jubail,Studio - Residential,279,14768.94737,2020-04-01
+Eastern Province,Al Khobar,Studio - Residential,664,14033.59551,2020-04-01
+Eastern Province,Al Khafji,Studio - Residential,39,11915.67568,2020-04-01
+Eastern Province,Dammam,Studio - Residential,1214,12379.74425,2020-04-01
+Eastern Province,Al Dhibiyah,Studio - Residential,1,15000.0,2020-04-01
+Eastern Province,Al Oyoun,Studio - Residential,8,14250.0,2020-04-01
+Eastern Province,Al Qatif,Studio - Residential,31,9480.0,2020-04-01
+Eastern Province,Al Qaisumah,Studio - Residential,2,30000.0,2020-04-01
+Eastern Province,Al Nairyah,Studio - Residential,25,15657.14286,2020-04-01
+Eastern Province,Buqayq,Studio - Residential,14,9225.0,2020-04-01
+Eastern Province,Hafar Al Batin,Studio - Residential,144,7508.620689,2020-04-01
+Eastern Province,Ras Tanura,Studio - Residential,18,9882.352941,2020-04-01
+Eastern Province,Qaryat Al Ulya,Studio - Residential,2,14400.0,2020-04-01
+Eastern Province,Al Ahsa,Duplex - Residential,26,26862.43478,2020-04-01
+Eastern Province,Al Jubail,Duplex - Residential,8,32562.5,2020-04-01
+Eastern Province,Al Khobar,Duplex - Residential,69,51707.59016,2020-04-01
+Eastern Province,Dammam,Duplex - Residential,127,50890.14655,2020-04-01
+Eastern Province,Al Oyoun,Duplex - Residential,1,12000.0,2020-04-01
+Eastern Province,Al Qatif,Duplex - Residential,20,27478.94737,2020-04-01
+Eastern Province,Buqayq,Duplex - Residential,1,16363.0,2020-04-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,3,12800.0,2020-04-01
+Eastern Province,Ras Tanura,Duplex - Residential,3,27000.0,2020-04-01
+Eastern Province,Al Ahsa,Floor - Residential,102,16357.46809,2020-04-01
+Eastern Province,Al Jubail,Floor - Residential,3,45000.0,2020-04-01
+Eastern Province,Al Khobar,Floor - Residential,61,34099.10714,2020-04-01
+Eastern Province,Al Khafji,Floor - Residential,14,23751.5,2020-04-01
+Eastern Province,Dammam,Floor - Residential,172,29308.14094,2020-04-01
+Eastern Province,Al Dhibiyah,Floor - Residential,2,21000.0,2020-04-01
+Eastern Province,Al Oyoun,Floor - Residential,4,13666.66667,2020-04-01
+Eastern Province,Al Qatif,Floor - Residential,29,17888.85185,2020-04-01
+Eastern Province,Al Qaisumah,Floor - Residential,11,15000.0,2020-04-01
+Eastern Province,Al Nairyah,Floor - Residential,7,20600.0,2020-04-01
+Eastern Province,Buqayq,Floor - Residential,9,23666.66667,2020-04-01
+Eastern Province,Hafar Al Batin,Floor - Residential,87,15448.53623,2020-04-01
+Eastern Province,Ras Tanura,Floor - Residential,16,30348.14286,2020-04-01
+Eastern Province,Qaryat Al Ulya,Floor - Residential,2,6000.0,2020-04-01
+Eastern Province,Mulayjah,Floor - Residential,1,20000.0,2020-04-01
+Eastern Province,Al Ahsa,Apartment - Residential,3952,11900.21988,2020-04-01
+Eastern Province,Al Buwaybiyat,Apartment - Residential,1,6000.0,2020-04-01
+Eastern Province,Al Jubail,Apartment - Residential,1799,19548.64076,2020-04-01
+Eastern Province,Al Khobar,Apartment - Residential,5367,20196.21308,2020-04-01
+Eastern Province,Al Khafji,Apartment - Residential,182,12886.38608,2020-04-01
+Eastern Province,Dammam,Apartment - Residential,8391,17491.96596,2020-04-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,46,17238.36364,2020-04-01
+Eastern Province,Al Su'ayrah,Apartment - Residential,3,8666.666666,2020-04-01
+Eastern Province,Al Sadowi,Apartment - Residential,1,6000.0,2020-04-01
+Eastern Province,Al Oyoun,Apartment - Residential,80,12891.85915,2020-04-01
+Eastern Province,Al Qatif,Apartment - Residential,1039,16063.24176,2020-04-01
+Eastern Province,Al Qaisumah,Apartment - Residential,84,8460.914893,2020-04-01
+Eastern Province,Al Nairyah,Apartment - Residential,138,14996.52778,2020-04-01
+Eastern Province,Buqayq,Apartment - Residential,79,17839.50847,2020-04-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,1497,10774.55634,2020-04-01
+Eastern Province,Ras Tanura,Apartment - Residential,434,15513.37308,2020-04-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,18,10110.28571,2020-04-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Apartment - Residential,3,13212.0,2020-04-01
+Eastern Province,Mulayjah,Apartment - Residential,1,7000.0,2020-04-01
+Eastern Province,Al Ahsa,Villa - Residential,13,24570.0,2020-04-01
+Eastern Province,Al Jubail,Villa - Residential,1,96000.0,2020-04-01
+Eastern Province,Al Khobar,Villa - Residential,153,80633.33803,2020-04-01
+Eastern Province,Al Khafji,Villa - Residential,2,51250.0,2020-04-01
+Eastern Province,Dammam,Villa - Residential,134,50486.52893,2020-04-01
+Eastern Province,Al Qatif,Villa - Residential,7,28428.57143,2020-04-01
+Eastern Province,Al Qaisumah,Villa - Residential,1,12000.0,2020-04-01
+Eastern Province,Al Nairyah,Villa - Residential,4,20666.66667,2020-04-01
+Eastern Province,Buqayq,Villa - Residential,1,90000.0,2020-04-01
+Eastern Province,Hafar Al Batin,Villa - Residential,3,19696.66667,2020-04-01
+Eastern Province,Al Ahsa,Studio - Residential,481,9534.93175,2020-07-01
+Eastern Province,Al Jubail,Studio - Residential,173,13706.60377,2020-07-01
+Eastern Province,Al Khobar,Studio - Residential,843,12896.00675,2020-07-01
+Eastern Province,Al Khafji,Studio - Residential,64,11589.81818,2020-07-01
+Eastern Province,Dammam,Studio - Residential,1492,11745.73909,2020-07-01
+Eastern Province,Al Oyoun,Studio - Residential,6,8840.0,2020-07-01
+Eastern Province,Al Qatif,Studio - Residential,75,8246.478873,2020-07-01
+Eastern Province,Al Qaisumah,Studio - Residential,2,7200.0,2020-07-01
+Eastern Province,Al Nairyah,Studio - Residential,20,16266.66667,2020-07-01
+Eastern Province,Buqayq,Studio - Residential,10,7200.0,2020-07-01
+Eastern Province,Hafar Al Batin,Studio - Residential,304,9502.624113,2020-07-01
+Eastern Province,Ras Tanura,Studio - Residential,68,7227.142857,2020-07-01
+Eastern Province,Al Ahsa,Duplex - Residential,43,20650.0,2020-07-01
+Eastern Province,Al Jubail,Duplex - Residential,16,35370.07143,2020-07-01
+Eastern Province,Al Khobar,Duplex - Residential,164,50353.75,2020-07-01
+Eastern Province,Al Khafji,Duplex - Residential,5,25800.0,2020-07-01
+Eastern Province,Dammam,Duplex - Residential,280,43503.21401,2020-07-01
+Eastern Province,Al Oyoun,Duplex - Residential,3,17666.66667,2020-07-01
+Eastern Province,Al Qatif,Duplex - Residential,38,26075.75758,2020-07-01
+Eastern Province,Al Nairyah,Duplex - Residential,1,90000.0,2020-07-01
+Eastern Province,Buqayq,Duplex - Residential,1,25000.0,2020-07-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,18,19860.0,2020-07-01
+Eastern Province,Ras Tanura,Duplex - Residential,2,20500.0,2020-07-01
+Eastern Province,Al Ahsa,Floor - Residential,226,16370.24227,2020-07-01
+Eastern Province,Al Jubail,Floor - Residential,6,28469.66667,2020-07-01
+Eastern Province,Al Khobar,Floor - Residential,112,35937.68132,2020-07-01
+Eastern Province,Al Khafji,Floor - Residential,27,20660.11538,2020-07-01
+Eastern Province,Dammam,Floor - Residential,343,28941.8986,2020-07-01
+Eastern Province,Al Su'ayrah,Floor - Residential,1,14400.0,2020-07-01
+Eastern Province,Al Oyoun,Floor - Residential,8,15488.28571,2020-07-01
+Eastern Province,Al Qatif,Floor - Residential,47,28012.33333,2020-07-01
+Eastern Province,Al Qaisumah,Floor - Residential,25,15000.0,2020-07-01
+Eastern Province,Al Nairyah,Floor - Residential,9,20325.0,2020-07-01
+Eastern Province,Buqayq,Floor - Residential,9,19444.44444,2020-07-01
+Eastern Province,Hafar Al Batin,Floor - Residential,189,13652.95205,2020-07-01
+Eastern Province,Ras Tanura,Floor - Residential,33,50495.4375,2020-07-01
+Eastern Province,Mulayjah,Floor - Residential,1,8400.0,2020-07-01
+Eastern Province,Al Ahsa,Apartment - Residential,6748,11810.80994,2020-07-01
+Eastern Province,Al Jubail,Apartment - Residential,2073,19557.95223,2020-07-01
+Eastern Province,Al Khobar,Apartment - Residential,8301,19932.8514,2020-07-01
+Eastern Province,Al Khafji,Apartment - Residential,599,13076.45646,2020-07-01
+Eastern Province,Dammam,Apartment - Residential,14785,17445.99312,2020-07-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,38,15150.0,2020-07-01
+Eastern Province,Al Su'ayrah,Apartment - Residential,1,6260.0,2020-07-01
+Eastern Province,Al Oyoun,Apartment - Residential,150,11660.84483,2020-07-01
+Eastern Province,Al Qatif,Apartment - Residential,2011,15258.13367,2020-07-01
+Eastern Province,Al Qaisumah,Apartment - Residential,214,8619.466101,2020-07-01
+Eastern Province,Al Nairyah,Apartment - Residential,290,13174.47418,2020-07-01
+Eastern Province,Buqayq,Apartment - Residential,112,15891.0,2020-07-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,2691,9880.808302,2020-07-01
+Eastern Province,Ras Tanura,Apartment - Residential,465,15796.83427,2020-07-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,20,8181.785714,2020-07-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Apartment - Residential,1,6000.0,2020-07-01
+Eastern Province,Mulayjah,Apartment - Residential,7,7466.666666,2020-07-01
+Eastern Province,Al Ahsa,Villa - Residential,38,20626.11429,2020-07-01
+Eastern Province,Al Jubail,Villa - Residential,23,63409.09091,2020-07-01
+Eastern Province,Al Khobar,Villa - Residential,190,73240.12353,2020-07-01
+Eastern Province,Al Khafji,Villa - Residential,6,21181.66667,2020-07-01
+Eastern Province,Dammam,Villa - Residential,234,49614.97608,2020-07-01
+Eastern Province,Al Qatif,Villa - Residential,12,27796.63636,2020-07-01
+Eastern Province,Al Nairyah,Villa - Residential,2,27500.0,2020-07-01
+Eastern Province,Buqayq,Villa - Residential,1,140000.0,2020-07-01
+Eastern Province,Hafar Al Batin,Villa - Residential,8,34652.125,2020-07-01
+Eastern Province,Ras Tanura,Villa - Residential,2,180000.0,2020-07-01
+Eastern Province,Al Ahsa,Studio - Residential,347,9092.807407,2020-10-01
+Eastern Province,Al Jubail,Studio - Residential,594,14656.58289,2020-10-01
+Eastern Province,Al Khobar,Studio - Residential,1273,12692.20433,2020-10-01
+Eastern Province,Al Khafji,Studio - Residential,49,11508.09524,2020-10-01
+Eastern Province,Dammam,Studio - Residential,1851,11585.63636,2020-10-01
+Eastern Province,Al Oyoun,Studio - Residential,3,5333.333333,2020-10-01
+Eastern Province,Al Qatif,Studio - Residential,53,10265.30612,2020-10-01
+Eastern Province,Al Qaisumah,Studio - Residential,3,30000.0,2020-10-01
+Eastern Province,Al Nairyah,Studio - Residential,21,14852.94118,2020-10-01
+Eastern Province,Buqayq,Studio - Residential,1,18000.0,2020-10-01
+Eastern Province,Hafar Al Batin,Studio - Residential,92,9996.551724,2020-10-01
+Eastern Province,Ras Tanura,Studio - Residential,41,12035.0,2020-10-01
+Eastern Province,Al Ahsa,Duplex - Residential,33,25123.90909,2020-10-01
+Eastern Province,Al Jubail,Duplex - Residential,38,45092.41667,2020-10-01
+Eastern Province,Al Khobar,Duplex - Residential,253,63442.57658,2020-10-01
+Eastern Province,Al Khafji,Duplex - Residential,4,16750.0,2020-10-01
+Eastern Province,Dammam,Duplex - Residential,308,45805.46,2020-10-01
+Eastern Province,Al Oyoun,Duplex - Residential,2,22500.0,2020-10-01
+Eastern Province,Al Qatif,Duplex - Residential,28,27888.88889,2020-10-01
+Eastern Province,Al Nairyah,Duplex - Residential,2,19200.0,2020-10-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,14,21626.36364,2020-10-01
+Eastern Province,Ras Tanura,Duplex - Residential,3,21666.66667,2020-10-01
+Eastern Province,Al Ahsa,Floor - Residential,162,17673.05517,2020-10-01
+Eastern Province,Al Jubail,Floor - Residential,46,43411.61111,2020-10-01
+Eastern Province,Al Khobar,Floor - Residential,198,34592.60625,2020-10-01
+Eastern Province,Al Khafji,Floor - Residential,19,20851.29412,2020-10-01
+Eastern Province,Dammam,Floor - Residential,367,28756.31734,2020-10-01
+Eastern Province,Al Oyoun,Floor - Residential,19,16952.6,2020-10-01
+Eastern Province,Al Qatif,Floor - Residential,46,19093.90909,2020-10-01
+Eastern Province,Al Qaisumah,Floor - Residential,12,14800.0,2020-10-01
+Eastern Province,Al Nairyah,Floor - Residential,20,21694.73684,2020-10-01
+Eastern Province,Umm Ghalib,Floor - Residential,1,12000.0,2020-10-01
+Eastern Province,Buqayq,Floor - Residential,33,48751.18182,2020-10-01
+Eastern Province,Hafar Al Batin,Floor - Residential,117,15067.7957,2020-10-01
+Eastern Province,Ras Tanura,Floor - Residential,31,20441.0,2020-10-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Floor - Residential,1,9600.0,2020-10-01
+Eastern Province,Mulayjah,Floor - Residential,1,9600.0,2020-10-01
+Eastern Province,Al Ahsa,Apartment - Residential,5370,12301.4993,2020-10-01
+Eastern Province,Al Jubail,Apartment - Residential,4508,18114.84363,2020-10-01
+Eastern Province,Al Khobar,Apartment - Residential,10520,19468.38965,2020-10-01
+Eastern Province,Al Khafji,Apartment - Residential,350,14259.73145,2020-10-01
+Eastern Province,Dammam,Apartment - Residential,18348,16983.55677,2020-10-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,73,17610.36538,2020-10-01
+Eastern Province,Al Oyoun,Apartment - Residential,82,13042.38889,2020-10-01
+Eastern Province,Al Qatif,Apartment - Residential,1331,16390.10624,2020-10-01
+Eastern Province,Al Qaisumah,Apartment - Residential,70,8964.075,2020-10-01
+Eastern Province,Al Nairyah,Apartment - Residential,214,13871.9881,2020-10-01
+Eastern Province,Buqayq,Apartment - Residential,136,15351.43878,2020-10-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,894,11104.95306,2020-10-01
+Eastern Province,Ras Tanura,Apartment - Residential,553,15749.3028,2020-10-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,8,8399.666666,2020-10-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Apartment - Residential,2,7000.0,2020-10-01
+Eastern Province,Al Ahsa,Villa - Residential,27,28553.85185,2020-10-01
+Eastern Province,Al Jubail,Villa - Residential,69,52688.2,2020-10-01
+Eastern Province,Al Khobar,Villa - Residential,239,73137.1831,2020-10-01
+Eastern Province,Al Khafji,Villa - Residential,3,29600.0,2020-10-01
+Eastern Province,Dammam,Villa - Residential,220,48378.46561,2020-10-01
+Eastern Province,Al Qatif,Villa - Residential,8,27625.0,2020-10-01
+Eastern Province,Al Qaisumah,Villa - Residential,1,24000.0,2020-10-01
+Eastern Province,Buqayq,Villa - Residential,2,72500.0,2020-10-01
+Eastern Province,Hafar Al Batin,Villa - Residential,2,34200.0,2020-10-01
+Eastern Province,Ras Tanura,Villa - Residential,3,81500.0,2020-10-01
+Eastern Province,Al Ahsa,Studio - Residential,306,9960.777327,2021-01-01
+Eastern Province,Al Jubail,Studio - Residential,596,13269.69697,2021-01-01
+Eastern Province,Al Khobar,Studio - Residential,1029,12700.55731,2021-01-01
+Eastern Province,Al Khafji,Studio - Residential,57,10538.09524,2021-01-01
+Eastern Province,Dammam,Studio - Residential,2056,11005.6438,2021-01-01
+Eastern Province,Al Oyoun,Studio - Residential,7,13200.0,2021-01-01
+Eastern Province,Al Qatif,Studio - Residential,55,9458.0,2021-01-01
+Eastern Province,Al Nairyah,Studio - Residential,16,24046.15385,2021-01-01
+Eastern Province,Buqayq,Studio - Residential,8,13000.0,2021-01-01
+Eastern Province,Hafar Al Batin,Studio - Residential,67,8782.142857,2021-01-01
+Eastern Province,Ras Tanura,Studio - Residential,27,12084.61538,2021-01-01
+Eastern Province,Al Ahsa,Duplex - Residential,24,31160.16667,2021-01-01
+Eastern Province,Al Jubail,Duplex - Residential,64,39829.5082,2021-01-01
+Eastern Province,Al Khobar,Duplex - Residential,351,62533.73438,2021-01-01
+Eastern Province,Al Khafji,Duplex - Residential,6,21534.4,2021-01-01
+Eastern Province,Dammam,Duplex - Residential,349,43096.51493,2021-01-01
+Eastern Province,Al Qatif,Duplex - Residential,33,23622.21875,2021-01-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,6,17993.83333,2021-01-01
+Eastern Province,Ras Tanura,Duplex - Residential,1,22000.0,2021-01-01
+Eastern Province,Al Ahsa,Floor - Residential,170,17560.0,2021-01-01
+Eastern Province,Al Jubail,Floor - Residential,21,57331.0,2021-01-01
+Eastern Province,Al Khobar,Floor - Residential,161,35178.50388,2021-01-01
+Eastern Province,Al Khafji,Floor - Residential,31,21194.28571,2021-01-01
+Eastern Province,Dammam,Floor - Residential,389,28557.72785,2021-01-01
+Eastern Province,Al Dhibiyah,Floor - Residential,2,15600.0,2021-01-01
+Eastern Province,Al Oyoun,Floor - Residential,6,15709.0,2021-01-01
+Eastern Province,Al Qatif,Floor - Residential,50,17634.30612,2021-01-01
+Eastern Province,Al Qaisumah,Floor - Residential,10,15962.5,2021-01-01
+Eastern Province,Al Nairyah,Floor - Residential,15,19393.91667,2021-01-01
+Eastern Province,Buqayq,Floor - Residential,20,29566.66667,2021-01-01
+Eastern Province,Hafar Al Batin,Floor - Residential,108,16034.60227,2021-01-01
+Eastern Province,Ras Tanura,Floor - Residential,20,24803.0,2021-01-01
+Eastern Province,Qaryat Al Ulya,Floor - Residential,1,16800.0,2021-01-01
+Eastern Province,Al Ahsa,Apartment - Residential,6187,12409.42273,2021-01-01
+Eastern Province,Al Jubail,Apartment - Residential,5828,17893.39271,2021-01-01
+Eastern Province,Al Khobar,Apartment - Residential,11164,18862.83237,2021-01-01
+Eastern Province,Al Khafji,Apartment - Residential,456,13737.0,2021-01-01
+Eastern Province,Dammam,Apartment - Residential,17923,16666.36728,2021-01-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,100,14741.83117,2021-01-01
+Eastern Province,Al Su'ayrah,Apartment - Residential,1,6260.0,2021-01-01
+Eastern Province,Al Oyoun,Apartment - Residential,106,13378.85507,2021-01-01
+Eastern Province,Al Qatif,Apartment - Residential,1799,15986.34172,2021-01-01
+Eastern Province,Al Qaisumah,Apartment - Residential,39,8750.0,2021-01-01
+Eastern Province,Al Nairyah,Apartment - Residential,241,13070.87791,2021-01-01
+Eastern Province,Buqayq,Apartment - Residential,233,16587.84354,2021-01-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,937,11286.46073,2021-01-01
+Eastern Province,Ras Tanura,Apartment - Residential,519,15898.74848,2021-01-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,8,7714.375,2021-01-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Apartment - Residential,3,10866.66667,2021-01-01
+Eastern Province,Mulayjah,Apartment - Residential,2,6750.0,2021-01-01
+Eastern Province,Al Ahsa,Villa - Residential,36,27906.35294,2021-01-01
+Eastern Province,Al Jubail,Villa - Residential,87,47345.2381,2021-01-01
+Eastern Province,Al Khobar,Villa - Residential,399,78010.51261,2021-01-01
+Eastern Province,Dammam,Villa - Residential,224,49767.1701,2021-01-01
+Eastern Province,Al Qatif,Villa - Residential,12,23916.66667,2021-01-01
+Eastern Province,Al Qaisumah,Villa - Residential,1,12000.0,2021-01-01
+Eastern Province,Hafar Al Batin,Villa - Residential,2,25800.0,2021-01-01
+Eastern Province,Ras Tanura,Villa - Residential,3,44848.33333,2021-01-01
+Eastern Province,Al Ahsa,Studio - Residential,185,9054.527027,2021-04-01
+Eastern Province,Al Jubail,Studio - Residential,345,13516.52174,2021-04-01
+Eastern Province,Al Khobar,Studio - Residential,495,13137.52358,2021-04-01
+Eastern Province,Al Khafji,Studio - Residential,17,15975.0,2021-04-01
+Eastern Province,Dammam,Studio - Residential,815,12755.11724,2021-04-01
+Eastern Province,Al Oyoun,Studio - Residential,11,16200.0,2021-04-01
+Eastern Province,Al Qatif,Studio - Residential,33,8893.75,2021-04-01
+Eastern Province,Al Qaisumah,Studio - Residential,1,12000.0,2021-04-01
+Eastern Province,Al Nairyah,Studio - Residential,13,16800.0,2021-04-01
+Eastern Province,Buqayq,Studio - Residential,5,11400.0,2021-04-01
+Eastern Province,Hafar Al Batin,Studio - Residential,77,9842.04878,2021-04-01
+Eastern Province,Ras Tanura,Studio - Residential,11,11594.66667,2021-04-01
+Eastern Province,Al Ahsa,Duplex - Residential,8,42500.0,2021-04-01
+Eastern Province,Al Jubail,Duplex - Residential,8,36857.14286,2021-04-01
+Eastern Province,Al Khobar,Duplex - Residential,96,50887.3125,2021-04-01
+Eastern Province,Dammam,Duplex - Residential,84,37895.08537,2021-04-01
+Eastern Province,Al Qatif,Duplex - Residential,18,23768.66667,2021-04-01
+Eastern Province,Al Qaisumah,Duplex - Residential,1,12000.0,2021-04-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,9,19000.0,2021-04-01
+Eastern Province,Al Ahsa,Floor - Residential,94,16463.02439,2021-04-01
+Eastern Province,Al Jubail,Floor - Residential,3,31333.33333,2021-04-01
+Eastern Province,Al Khobar,Floor - Residential,118,35116.4625,2021-04-01
+Eastern Province,Al Khafji,Floor - Residential,4,15500.0,2021-04-01
+Eastern Province,Dammam,Floor - Residential,169,29421.17778,2021-04-01
+Eastern Province,Al Oyoun,Floor - Residential,2,9500.0,2021-04-01
+Eastern Province,Al Qatif,Floor - Residential,32,19535.40625,2021-04-01
+Eastern Province,Al Qaisumah,Floor - Residential,10,14600.0,2021-04-01
+Eastern Province,Al Nairyah,Floor - Residential,6,20900.0,2021-04-01
+Eastern Province,Buqayq,Floor - Residential,8,40400.0,2021-04-01
+Eastern Province,Hafar Al Batin,Floor - Residential,98,15670.29487,2021-04-01
+Eastern Province,Ras Tanura,Floor - Residential,5,22036.2,2021-04-01
+Eastern Province,Qaryat Al Ulya,Floor - Residential,2,6000.0,2021-04-01
+Eastern Province,Al Ahsa,Apartment - Residential,3029,12223.96456,2021-04-01
+Eastern Province,Al Jubail,Apartment - Residential,1819,18581.24156,2021-04-01
+Eastern Province,Al Khobar,Apartment - Residential,4678,19201.63253,2021-04-01
+Eastern Province,Al Khafji,Apartment - Residential,152,14450.04724,2021-04-01
+Eastern Province,Dammam,Apartment - Residential,8061,17235.81362,2021-04-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,29,16592.14286,2021-04-01
+Eastern Province,Al Oyoun,Apartment - Residential,65,12972.86538,2021-04-01
+Eastern Province,Al Qatif,Apartment - Residential,857,16255.99868,2021-04-01
+Eastern Province,Al Qaisumah,Apartment - Residential,25,8463.157894,2021-04-01
+Eastern Province,Al Nairyah,Apartment - Residential,75,13016.47059,2021-04-01
+Eastern Province,Buqayq,Apartment - Residential,142,16370.0,2021-04-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,840,10213.33471,2021-04-01
+Eastern Province,Ras Tanura,Apartment - Residential,205,14974.83226,2021-04-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,6,6127.2,2021-04-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Apartment - Residential,2,10000.0,2021-04-01
+Eastern Province,Al Ahsa,Villa - Residential,24,21500.0,2021-04-01
+Eastern Province,Al Jubail,Villa - Residential,12,58416.66667,2021-04-01
+Eastern Province,Al Khobar,Villa - Residential,121,68024.34545,2021-04-01
+Eastern Province,Dammam,Villa - Residential,95,46165.94382,2021-04-01
+Eastern Province,Al Dhibiyah,Villa - Residential,1,18000.0,2021-04-01
+Eastern Province,Al Qatif,Villa - Residential,7,23297.85714,2021-04-01
+Eastern Province,Al Nairyah,Villa - Residential,2,27250.0,2021-04-01
+Eastern Province,Hafar Al Batin,Villa - Residential,8,27970.0,2021-04-01
+Eastern Province,Ras Tanura,Villa - Residential,2,33090.5,2021-04-01
+Eastern Province,Al Ahsa,Studio - Residential,355,9723.685314,2021-07-01
+Eastern Province,Al Jubail,Studio - Residential,121,13429.62963,2021-07-01
+Eastern Province,Al Khobar,Studio - Residential,641,13866.15094,2021-07-01
+Eastern Province,Al Khafji,Studio - Residential,24,11810.0,2021-07-01
+Eastern Province,Dammam,Studio - Residential,1311,12423.33074,2021-07-01
+Eastern Province,Al Oyoun,Studio - Residential,3,10333.33333,2021-07-01
+Eastern Province,Al Qatif,Studio - Residential,43,10683.33333,2021-07-01
+Eastern Province,Al Qaisumah,Studio - Residential,4,13200.0,2021-07-01
+Eastern Province,Al Nairyah,Studio - Residential,22,14863.63636,2021-07-01
+Eastern Province,Buqayq,Studio - Residential,9,8300.0,2021-07-01
+Eastern Province,Hafar Al Batin,Studio - Residential,190,10982.59259,2021-07-01
+Eastern Province,Ras Tanura,Studio - Residential,16,13053.33333,2021-07-01
+Eastern Province,Qaryat Al Ulya,Studio - Residential,1,4800.0,2021-07-01
+Eastern Province,Al Ahsa,Duplex - Residential,19,21722.22222,2021-07-01
+Eastern Province,Al Jubail,Duplex - Residential,9,35573.75,2021-07-01
+Eastern Province,Al Khobar,Duplex - Residential,100,53898.22785,2021-07-01
+Eastern Province,Al Khafji,Duplex - Residential,2,32500.0,2021-07-01
+Eastern Province,Dammam,Duplex - Residential,165,39872.67974,2021-07-01
+Eastern Province,Al Oyoun,Duplex - Residential,2,18000.0,2021-07-01
+Eastern Province,Al Qatif,Duplex - Residential,31,27782.39286,2021-07-01
+Eastern Province,Buqayq,Duplex - Residential,1,16000.0,2021-07-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,2,19200.0,2021-07-01
+Eastern Province,Ras Tanura,Duplex - Residential,1,22000.0,2021-07-01
+Eastern Province,Al Ahsa,Floor - Residential,166,17593.21711,2021-07-01
+Eastern Province,Al Jubail,Floor - Residential,5,24000.0,2021-07-01
+Eastern Province,Al Khobar,Floor - Residential,122,29843.06931,2021-07-01
+Eastern Province,Al Khafji,Floor - Residential,11,21289.18182,2021-07-01
+Eastern Province,Dammam,Floor - Residential,368,26882.91639,2021-07-01
+Eastern Province,Al Su'ayrah,Floor - Residential,1,14400.0,2021-07-01
+Eastern Province,Al Oyoun,Floor - Residential,6,15878.66667,2021-07-01
+Eastern Province,Al Qatif,Floor - Residential,48,21805.19149,2021-07-01
+Eastern Province,Al Qaisumah,Floor - Residential,13,16800.0,2021-07-01
+Eastern Province,Al Nairyah,Floor - Residential,10,18577.77778,2021-07-01
+Eastern Province,Buqayq,Floor - Residential,10,26878.77778,2021-07-01
+Eastern Province,Hafar Al Batin,Floor - Residential,209,14538.12658,2021-07-01
+Eastern Province,Ras Tanura,Floor - Residential,17,22571.375,2021-07-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Floor - Residential,4,18450.0,2021-07-01
+Eastern Province,Al Ahsa,Apartment - Residential,6406,12487.03296,2021-07-01
+Eastern Province,Al Jubail,Apartment - Residential,2532,19179.73599,2021-07-01
+Eastern Province,Al Khobar,Apartment - Residential,7649,20591.18414,2021-07-01
+Eastern Province,Al Khafji,Apartment - Residential,391,14151.121,2021-07-01
+Eastern Province,Dammam,Apartment - Residential,14465,18020.25175,2021-07-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,42,15325.96875,2021-07-01
+Eastern Province,Al Oyoun,Apartment - Residential,182,12281.50714,2021-07-01
+Eastern Province,Al Qatif,Apartment - Residential,1734,16577.3823,2021-07-01
+Eastern Province,Al Qaisumah,Apartment - Residential,79,10617.72727,2021-07-01
+Eastern Province,Al Nairyah,Apartment - Residential,126,14867.56637,2021-07-01
+Eastern Province,Buqayq,Apartment - Residential,142,17541.5283,2021-07-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,1982,10179.39014,2021-07-01
+Eastern Province,Ras Tanura,Apartment - Residential,360,15607.79913,2021-07-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,1,6000.0,2021-07-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Apartment - Residential,2,9300.0,2021-07-01
+Eastern Province,Mulayjah,Apartment - Residential,3,8466.666666,2021-07-01
+Eastern Province,Al Ahsa,Villa - Residential,100,20247.3,2021-07-01
+Eastern Province,Al Jubail,Villa - Residential,47,52638.23913,2021-07-01
+Eastern Province,Al Khobar,Villa - Residential,369,70321.08207,2021-07-01
+Eastern Province,Al Khafji,Villa - Residential,9,23880.88889,2021-07-01
+Eastern Province,Dammam,Villa - Residential,354,49117.01455,2021-07-01
+Eastern Province,Al Oyoun,Villa - Residential,2,16227.0,2021-07-01
+Eastern Province,Al Qatif,Villa - Residential,28,26557.70833,2021-07-01
+Eastern Province,Al Qaisumah,Villa - Residential,1,24000.0,2021-07-01
+Eastern Province,Al Nairyah,Villa - Residential,4,31333.33333,2021-07-01
+Eastern Province,Buqayq,Villa - Residential,1,10000.0,2021-07-01
+Eastern Province,Hafar Al Batin,Villa - Residential,20,28882.35294,2021-07-01
+Eastern Province,Al Ahsa,Studio - Residential,345,9742.280701,2021-10-01
+Eastern Province,Al Jubail,Studio - Residential,260,14133.3012,2021-10-01
+Eastern Province,Al Khobar,Studio - Residential,920,12672.75591,2021-10-01
+Eastern Province,Al Khafji,Studio - Residential,36,12630.30303,2021-10-01
+Eastern Province,Dammam,Studio - Residential,1854,11624.39973,2021-10-01
+Eastern Province,Al Oyoun,Studio - Residential,8,15433.33333,2021-10-01
+Eastern Province,Al Qatif,Studio - Residential,44,10251.90476,2021-10-01
+Eastern Province,Al Qaisumah,Studio - Residential,1,12000.0,2021-10-01
+Eastern Province,Al Nairyah,Studio - Residential,15,13542.85714,2021-10-01
+Eastern Province,Buqayq,Studio - Residential,6,9411.0,2021-10-01
+Eastern Province,Hafar Al Batin,Studio - Residential,89,10230.23256,2021-10-01
+Eastern Province,Ras Tanura,Studio - Residential,22,16084.21053,2021-10-01
+Eastern Province,Al Ahsa,Duplex - Residential,39,21984.94595,2021-10-01
+Eastern Province,Al Jubail,Duplex - Residential,10,38435.66667,2021-10-01
+Eastern Province,Al Khobar,Duplex - Residential,135,50836.78512,2021-10-01
+Eastern Province,Al Khafji,Duplex - Residential,4,25750.0,2021-10-01
+Eastern Province,Dammam,Duplex - Residential,229,40506.06912,2021-10-01
+Eastern Province,Al Oyoun,Duplex - Residential,1,20000.0,2021-10-01
+Eastern Province,Al Qatif,Duplex - Residential,25,26801.29167,2021-10-01
+Eastern Province,Al Nairyah,Duplex - Residential,1,90000.0,2021-10-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,10,18044.44444,2021-10-01
+Eastern Province,Ras Tanura,Duplex - Residential,1,20000.0,2021-10-01
+Eastern Province,Al Ahsa,Floor - Residential,194,14636.68072,2021-10-01
+Eastern Province,Al Jubail,Floor - Residential,7,36187.0,2021-10-01
+Eastern Province,Al Khobar,Floor - Residential,172,28377.49219,2021-10-01
+Eastern Province,Al Khafji,Floor - Residential,25,20515.90909,2021-10-01
+Eastern Province,Dammam,Floor - Residential,372,28729.5596,2021-10-01
+Eastern Province,Al Dhibiyah,Floor - Residential,2,21600.0,2021-10-01
+Eastern Province,Al Oyoun,Floor - Residential,6,18986.5,2021-10-01
+Eastern Province,Al Qatif,Floor - Residential,38,20003.8,2021-10-01
+Eastern Province,Al Qaisumah,Floor - Residential,14,14400.0,2021-10-01
+Eastern Province,Al Nairyah,Floor - Residential,7,20197.28571,2021-10-01
+Eastern Province,Buqayq,Floor - Residential,26,29479.36364,2021-10-01
+Eastern Province,Hafar Al Batin,Floor - Residential,274,14997.12712,2021-10-01
+Eastern Province,Ras Tanura,Floor - Residential,26,16732.04348,2021-10-01
+Eastern Province,Al Ahsa,Apartment - Residential,7184,12224.94792,2021-10-01
+Eastern Province,Al Jubail,Apartment - Residential,3432,17771.63609,2021-10-01
+Eastern Province,Al Khobar,Apartment - Residential,11397,19433.48353,2021-10-01
+Eastern Province,Al Khafji,Apartment - Residential,509,13734.08447,2021-10-01
+Eastern Province,Dammam,Apartment - Residential,19649,17390.75454,2021-10-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,117,16140.62338,2021-10-01
+Eastern Province,Al Oyoun,Apartment - Residential,142,13295.09,2021-10-01
+Eastern Province,Al Qatif,Apartment - Residential,1905,17044.54961,2021-10-01
+Eastern Province,Al Qaisumah,Apartment - Residential,64,9278.378378,2021-10-01
+Eastern Province,Al Nairyah,Apartment - Residential,263,15150.90173,2021-10-01
+Eastern Province,Buqayq,Apartment - Residential,163,16006.34615,2021-10-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,1727,10596.61441,2021-10-01
+Eastern Province,Ras Tanura,Apartment - Residential,616,15662.20513,2021-10-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,7,11915.0,2021-10-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Apartment - Residential,4,14909.0,2021-10-01
+Eastern Province,Mulayjah,Apartment - Residential,2,15000.0,2021-10-01
+Eastern Province,Al Ahsa,Villa - Residential,94,18338.64634,2021-10-01
+Eastern Province,Al Jubail,Villa - Residential,63,57983.85714,2021-10-01
+Eastern Province,Al Khobar,Villa - Residential,352,73570.41584,2021-10-01
+Eastern Province,Al Khafji,Villa - Residential,5,21120.0,2021-10-01
+Eastern Province,Dammam,Villa - Residential,376,62738.75851,2021-10-01
+Eastern Province,Al Oyoun,Villa - Residential,2,14909.0,2021-10-01
+Eastern Province,Al Qatif,Villa - Residential,27,40714.12,2021-10-01
+Eastern Province,Al Nairyah,Villa - Residential,1,11000.0,2021-10-01
+Eastern Province,Buqayq,Villa - Residential,5,80800.0,2021-10-01
+Eastern Province,Hafar Al Batin,Villa - Residential,21,39627.2,2021-10-01
+Eastern Province,Ras Tanura,Villa - Residential,4,42666.66667,2021-10-01
+Eastern Province,Al Ahsa,Studio - Residential,411,9789.003095,2022-01-01
+Eastern Province,Al Jubail,Studio - Residential,321,12043.57333,2022-01-01
+Eastern Province,Al Khobar,Studio - Residential,1245,12564.53819,2022-01-01
+Eastern Province,Al Khafji,Studio - Residential,57,12881.63265,2022-01-01
+Eastern Province,Dammam,Studio - Residential,2232,11720.98946,2022-01-01
+Eastern Province,Al Oyoun,Studio - Residential,7,7600.0,2022-01-01
+Eastern Province,Al Qatif,Studio - Residential,68,9381.612903,2022-01-01
+Eastern Province,Al Qaisumah,Studio - Residential,2,25200.0,2022-01-01
+Eastern Province,Al Nairyah,Studio - Residential,15,15960.0,2022-01-01
+Eastern Province,Buqayq,Studio - Residential,6,15266.66667,2022-01-01
+Eastern Province,Hafar Al Batin,Studio - Residential,93,10481.08108,2022-01-01
+Eastern Province,Ras Tanura,Studio - Residential,24,12505.15789,2022-01-01
+Eastern Province,Al Ahsa,Duplex - Residential,27,25081.48148,2022-01-01
+Eastern Province,Al Jubail,Duplex - Residential,13,30923.07692,2022-01-01
+Eastern Province,Al Khobar,Duplex - Residential,166,57811.2293,2022-01-01
+Eastern Province,Al Khafji,Duplex - Residential,6,23333.33333,2022-01-01
+Eastern Province,Dammam,Duplex - Residential,284,39314.868,2022-01-01
+Eastern Province,Al Oyoun,Duplex - Residential,1,24000.0,2022-01-01
+Eastern Province,Al Qatif,Duplex - Residential,36,26810.9375,2022-01-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,8,19500.0,2022-01-01
+Eastern Province,Ras Tanura,Duplex - Residential,1,18000.0,2022-01-01
+Eastern Province,Al Ahsa,Floor - Residential,219,16918.06316,2022-01-01
+Eastern Province,Al Jubail,Floor - Residential,20,26600.0,2022-01-01
+Eastern Province,Al Khobar,Floor - Residential,192,33533.20408,2022-01-01
+Eastern Province,Al Khafji,Floor - Residential,25,17750.0,2022-01-01
+Eastern Province,Dammam,Floor - Residential,467,27672.54615,2022-01-01
+Eastern Province,Al Dhibiyah,Floor - Residential,9,14933.33333,2022-01-01
+Eastern Province,Al Su'ayrah,Floor - Residential,1,18000.0,2022-01-01
+Eastern Province,Al Oyoun,Floor - Residential,9,14777.77778,2022-01-01
+Eastern Province,Al Qatif,Floor - Residential,55,19861.22449,2022-01-01
+Eastern Province,Al Qaisumah,Floor - Residential,18,15185.71429,2022-01-01
+Eastern Province,Al Nairyah,Floor - Residential,11,20563.63636,2022-01-01
+Eastern Province,Buqayq,Floor - Residential,22,23580.0,2022-01-01
+Eastern Province,Hafar Al Batin,Floor - Residential,451,14249.79487,2022-01-01
+Eastern Province,Ras Tanura,Floor - Residential,30,23030.76923,2022-01-01
+Eastern Province,Qaryat Al Ulya,Floor - Residential,1,8400.0,2022-01-01
+Eastern Province,Mulayjah,Floor - Residential,1,15000.0,2022-01-01
+Eastern Province,Al Ahsa,Apartment - Residential,9077,12508.44841,2022-01-01
+Eastern Province,Al Buwaybiyat,Apartment - Residential,1,12000.0,2022-01-01
+Eastern Province,Al Jubail,Apartment - Residential,5106,17968.87843,2022-01-01
+Eastern Province,Al Khobar,Apartment - Residential,12486,18466.31319,2022-01-01
+Eastern Province,Al Khafji,Apartment - Residential,580,13231.22222,2022-01-01
+Eastern Province,Dammam,Apartment - Residential,22737,17027.90195,2022-01-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,177,13649.79021,2022-01-01
+Eastern Province,Al Oyoun,Apartment - Residential,192,14021.92941,2022-01-01
+Eastern Province,Al Qatif,Apartment - Residential,2339,16194.75446,2022-01-01
+Eastern Province,Al Qaisumah,Apartment - Residential,114,10995.12195,2022-01-01
+Eastern Province,Al Nairyah,Apartment - Residential,230,14486.35676,2022-01-01
+Eastern Province,Buqayq,Apartment - Residential,171,16386.36364,2022-01-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,2437,11348.21193,2022-01-01
+Eastern Province,Ras Tanura,Apartment - Residential,623,15329.29515,2022-01-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,6,8716.666666,2022-01-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Apartment - Residential,3,9666.666666,2022-01-01
+Eastern Province,Mulayjah,Apartment - Residential,4,9375.0,2022-01-01
+Eastern Province,Al Ahsa,Villa - Residential,118,20978.09524,2022-01-01
+Eastern Province,Al Jubail,Villa - Residential,160,52215.93478,2022-01-01
+Eastern Province,Al Khobar,Villa - Residential,506,71622.20628,2022-01-01
+Eastern Province,Al Khafji,Villa - Residential,10,20100.0,2022-01-01
+Eastern Province,Dammam,Villa - Residential,361,55696.19608,2022-01-01
+Eastern Province,Al Oyoun,Villa - Residential,3,12800.0,2022-01-01
+Eastern Province,Al Qatif,Villa - Residential,22,35684.21053,2022-01-01
+Eastern Province,Al Qaisumah,Villa - Residential,2,21600.0,2022-01-01
+Eastern Province,Al Nairyah,Villa - Residential,2,27000.0,2022-01-01
+Eastern Province,Buqayq,Villa - Residential,3,31666.66667,2022-01-01
+Eastern Province,Hafar Al Batin,Villa - Residential,31,24000.0,2022-01-01
+Eastern Province,Ras Tanura,Villa - Residential,2,27500.0,2022-01-01
+Eastern Province,Qaryat Al Ulya,Villa - Residential,1,58000.0,2022-01-01
+Eastern Province,Al Ahsa,Studio - Residential,352,10455.76471,2022-04-01
+Eastern Province,Al Jubail,Studio - Residential,368,13246.06164,2022-04-01
+Eastern Province,Al Khobar,Studio - Residential,972,15734.74028,2022-04-01
+Eastern Province,Al Khafji,Studio - Residential,43,11996.27907,2022-04-01
+Eastern Province,Dammam,Studio - Residential,2062,11802.86423,2022-04-01
+Eastern Province,Al Dhibiyah,Studio - Residential,1,15000.0,2022-04-01
+Eastern Province,Al Oyoun,Studio - Residential,9,17400.0,2022-04-01
+Eastern Province,Al Qatif,Studio - Residential,32,11086.2069,2022-04-01
+Eastern Province,Al Qaisumah,Studio - Residential,4,14700.0,2022-04-01
+Eastern Province,Al Nairyah,Studio - Residential,18,15400.0,2022-04-01
+Eastern Province,Buqayq,Studio - Residential,6,11466.66667,2022-04-01
+Eastern Province,Hafar Al Batin,Studio - Residential,120,12433.78378,2022-04-01
+Eastern Province,Ras Tanura,Studio - Residential,25,13381.81818,2022-04-01
+Eastern Province,Qaryat Al Ulya,Studio - Residential,2,4800.0,2022-04-01
+Eastern Province,Al Ahsa,Duplex - Residential,23,21239.13043,2022-04-01
+Eastern Province,Al Jubail,Duplex - Residential,18,33500.0,2022-04-01
+Eastern Province,Al Khobar,Duplex - Residential,137,59771.48148,2022-04-01
+Eastern Province,Dammam,Duplex - Residential,185,39919.77273,2022-04-01
+Eastern Province,Al Oyoun,Duplex - Residential,2,20000.0,2022-04-01
+Eastern Province,Al Qatif,Duplex - Residential,44,25890.35714,2022-04-01
+Eastern Province,Buqayq,Duplex - Residential,1,15000.0,2022-04-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,10,19920.0,2022-04-01
+Eastern Province,Ras Tanura,Duplex - Residential,2,25500.0,2022-04-01
+Eastern Province,Al Ahsa,Floor - Residential,220,15498.80612,2022-04-01
+Eastern Province,Al Jubail,Floor - Residential,16,57636.36364,2022-04-01
+Eastern Province,Al Khobar,Floor - Residential,170,32375.95902,2022-04-01
+Eastern Province,Al Khafji,Floor - Residential,31,19730.76923,2022-04-01
+Eastern Province,Dammam,Floor - Residential,430,27374.4274,2022-04-01
+Eastern Province,Al Dhibiyah,Floor - Residential,3,14800.0,2022-04-01
+Eastern Province,Al Oyoun,Floor - Residential,3,18666.66667,2022-04-01
+Eastern Province,Al Qatif,Floor - Residential,72,18600.64516,2022-04-01
+Eastern Province,Al Qaisumah,Floor - Residential,15,15171.42857,2022-04-01
+Eastern Province,Al Nairyah,Floor - Residential,13,20777.77778,2022-04-01
+Eastern Province,Buqayq,Floor - Residential,19,24888.88889,2022-04-01
+Eastern Province,Hafar Al Batin,Floor - Residential,307,13773.6965,2022-04-01
+Eastern Province,Ras Tanura,Floor - Residential,28,22316.66667,2022-04-01
+Eastern Province,Qaryat Al Ulya,Floor - Residential,1,6000.0,2022-04-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Floor - Residential,1,24000.0,2022-04-01
+Eastern Province,Al Ahsa,Apartment - Residential,8690,12230.42242,2022-04-01
+Eastern Province,Al Jubail,Apartment - Residential,3844,18360.96439,2022-04-01
+Eastern Province,Al Khobar,Apartment - Residential,10872,19191.20223,2022-04-01
+Eastern Province,Al Khafji,Apartment - Residential,593,13200.03711,2022-04-01
+Eastern Province,Dammam,Apartment - Residential,19690,17140.33162,2022-04-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,173,14781.13924,2022-04-01
+Eastern Province,Al Su'ayrah,Apartment - Residential,2,12000.0,2022-04-01
+Eastern Province,Al Oyoun,Apartment - Residential,244,12511.86792,2022-04-01
+Eastern Province,Al Qatif,Apartment - Residential,2698,15871.95944,2022-04-01
+Eastern Province,Al Qaisumah,Apartment - Residential,114,9331.645569,2022-04-01
+Eastern Province,Al Nairyah,Apartment - Residential,212,14233.625,2022-04-01
+Eastern Province,Buqayq,Apartment - Residential,185,16471.51899,2022-04-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,2614,10564.08706,2022-04-01
+Eastern Province,Ras Tanura,Apartment - Residential,626,14746.64642,2022-04-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,14,9800.0,2022-04-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Apartment - Residential,4,7600.0,2022-04-01
+Eastern Province,Mulayjah,Apartment - Residential,5,9120.0,2022-04-01
+Eastern Province,Al Ahsa,Villa - Residential,119,19327.67857,2022-04-01
+Eastern Province,Al Jubail,Villa - Residential,54,57686.27451,2022-04-01
+Eastern Province,Al Khobar,Villa - Residential,683,81744.58362,2022-04-01
+Eastern Province,Al Khafji,Villa - Residential,11,29000.0,2022-04-01
+Eastern Province,Dammam,Villa - Residential,376,50258.62928,2022-04-01
+Eastern Province,Al Dhibiyah,Villa - Residential,2,18000.0,2022-04-01
+Eastern Province,Al Oyoun,Villa - Residential,2,38500.0,2022-04-01
+Eastern Province,Al Qatif,Villa - Residential,20,18970.0,2022-04-01
+Eastern Province,Al Qaisumah,Villa - Residential,1,22800.0,2022-04-01
+Eastern Province,Al Nairyah,Villa - Residential,3,29333.33333,2022-04-01
+Eastern Province,Buqayq,Villa - Residential,1,24000.0,2022-04-01
+Eastern Province,Hafar Al Batin,Villa - Residential,27,22852.38095,2022-04-01
+Eastern Province,Al Ahsa,Studio - Residential,951,9231.332357,2022-07-01
+Eastern Province,Al Jubail,Studio - Residential,476,13551.89965,2022-07-01
+Eastern Province,Al Khobar,Studio - Residential,1387,13731.79143,2022-07-01
+Eastern Province,Al Khafji,Studio - Residential,104,14771.52941,2022-07-01
+Eastern Province,Dammam,Studio - Residential,2933,11883.21814,2022-07-01
+Eastern Province,Al Oyoun,Studio - Residential,23,8226.666666,2022-07-01
+Eastern Province,Al Qatif,Studio - Residential,102,8971.022727,2022-07-01
+Eastern Province,Al Qaisumah,Studio - Residential,10,12833.33333,2022-07-01
+Eastern Province,Al Nairyah,Studio - Residential,48,13336.36364,2022-07-01
+Eastern Province,Buqayq,Studio - Residential,24,11014.28571,2022-07-01
+Eastern Province,Hafar Al Batin,Studio - Residential,1480,12259.34503,2022-07-01
+Eastern Province,Ras Tanura,Studio - Residential,43,11997.89474,2022-07-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Studio - Residential,4,11600.0,2022-07-01
+Eastern Province,Al Ahsa,Duplex - Residential,33,26265.625,2022-07-01
+Eastern Province,Al Jubail,Duplex - Residential,12,31383.33333,2022-07-01
+Eastern Province,Al Khobar,Duplex - Residential,143,55668.38235,2022-07-01
+Eastern Province,Al Khafji,Duplex - Residential,3,26600.0,2022-07-01
+Eastern Province,Dammam,Duplex - Residential,224,39400.06863,2022-07-01
+Eastern Province,Al Oyoun,Duplex - Residential,2,15000.0,2022-07-01
+Eastern Province,Al Qatif,Duplex - Residential,30,24874.28571,2022-07-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,12,14000.0,2022-07-01
+Eastern Province,Ras Tanura,Duplex - Residential,4,25000.0,2022-07-01
+Eastern Province,Al Ahsa,Floor - Residential,386,16381.79755,2022-07-01
+Eastern Province,Al Jubail,Floor - Residential,35,36743.92,2022-07-01
+Eastern Province,Al Khobar,Floor - Residential,181,28512.17949,2022-07-01
+Eastern Province,Al Khafji,Floor - Residential,78,18163.49206,2022-07-01
+Eastern Province,Dammam,Floor - Residential,495,26630.35012,2022-07-01
+Eastern Province,Al Dhibiyah,Floor - Residential,15,14923.63636,2022-07-01
+Eastern Province,Al Sadowi,Floor - Residential,1,12000.0,2022-07-01
+Eastern Province,Al Oyoun,Floor - Residential,14,15892.30769,2022-07-01
+Eastern Province,Al Qatif,Floor - Residential,76,18291.08108,2022-07-01
+Eastern Province,Al Qaisumah,Floor - Residential,21,16080.0,2022-07-01
+Eastern Province,Al Nairyah,Floor - Residential,27,16754.54545,2022-07-01
+Eastern Province,Buqayq,Floor - Residential,37,24250.0,2022-07-01
+Eastern Province,Hafar Al Batin,Floor - Residential,626,13679.91579,2022-07-01
+Eastern Province,Ras Tanura,Floor - Residential,36,18648.27586,2022-07-01
+Eastern Province,Qaryat Al Ulya,Floor - Residential,3,15000.0,2022-07-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Floor - Residential,4,19950.0,2022-07-01
+Eastern Province,Al Ahsa,Apartment - Residential,14574,11559.53976,2022-07-01
+Eastern Province,Al Jubail,Apartment - Residential,4986,18251.95176,2022-07-01
+Eastern Province,Al Khobar,Apartment - Residential,12735,19479.0267,2022-07-01
+Eastern Province,Al Khafji,Apartment - Residential,1783,11905.74245,2022-07-01
+Eastern Province,Dammam,Apartment - Residential,28001,16772.18199,2022-07-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,586,12607.08861,2022-07-01
+Eastern Province,Al Su'ayrah,Apartment - Residential,17,10030.76923,2022-07-01
+Eastern Province,Al Sadowi,Apartment - Residential,4,6000.0,2022-07-01
+Eastern Province,Al Oyoun,Apartment - Residential,547,10626.4257,2022-07-01
+Eastern Province,Al Qatif,Apartment - Residential,3746,14940.9017,2022-07-01
+Eastern Province,Al Qaisumah,Apartment - Residential,435,8494.650205,2022-07-01
+Eastern Province,Al Nairyah,Apartment - Residential,869,13465.04523,2022-07-01
+Eastern Province,Buqayq,Apartment - Residential,454,14335.17442,2022-07-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,9640,9119.086956,2022-07-01
+Eastern Province,Ras Tanura,Apartment - Residential,882,14813.22411,2022-07-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,91,9850.877192,2022-07-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Apartment - Residential,60,9154.285714,2022-07-01
+Eastern Province,Mulayjah,Apartment - Residential,22,10015.38462,2022-07-01
+Eastern Province,Manakh,Apartment - Residential,1,4800.0,2022-07-01
+Eastern Province,Yabrin,Apartment - Residential,3,10200.0,2022-07-01
+Eastern Province,Al Ahsa,Villa - Residential,167,23224.30556,2022-07-01
+Eastern Province,Al Jubail,Villa - Residential,62,46838.88889,2022-07-01
+Eastern Province,Al Khobar,Villa - Residential,682,71725.43151,2022-07-01
+Eastern Province,Al Khafji,Villa - Residential,17,29480.0,2022-07-01
+Eastern Province,Dammam,Villa - Residential,508,48065.36842,2022-07-01
+Eastern Province,Al Dhibiyah,Villa - Residential,11,20850.0,2022-07-01
+Eastern Province,Al Oyoun,Villa - Residential,5,15400.0,2022-07-01
+Eastern Province,Al Qatif,Villa - Residential,29,28653.84615,2022-07-01
+Eastern Province,Al Qaisumah,Villa - Residential,3,26000.0,2022-07-01
+Eastern Province,Al Nairyah,Villa - Residential,8,18600.0,2022-07-01
+Eastern Province,Buqayq,Villa - Residential,1,40000.0,2022-07-01
+Eastern Province,Hafar Al Batin,Villa - Residential,36,22027.58621,2022-07-01
+Eastern Province,Ras Tanura,Villa - Residential,8,22166.66667,2022-07-01
+Eastern Province,Qaryat Al Ulya,Villa - Residential,1,10000.0,2022-07-01
+Eastern Province,Mulayjah,Villa - Residential,1,10000.0,2022-07-01
+Eastern Province,Al Ahsa,Studio - Residential,615,9441.535632,2022-10-01
+Eastern Province,Al Jubail,Studio - Residential,400,14293.42857,2022-10-01
+Eastern Province,Al Khobar,Studio - Residential,1312,13269.46748,2022-10-01
+Eastern Province,Al Khafji,Studio - Residential,60,13596.07843,2022-10-01
+Eastern Province,Dammam,Studio - Residential,2708,12096.57295,2022-10-01
+Eastern Province,Al Oyoun,Studio - Residential,13,15680.0,2022-10-01
+Eastern Province,Al Qatif,Studio - Residential,127,9646.835443,2022-10-01
+Eastern Province,Al Qaisumah,Studio - Residential,2,11400.0,2022-10-01
+Eastern Province,Al Nairyah,Studio - Residential,62,15015.55556,2022-10-01
+Eastern Province,Buqayq,Studio - Residential,15,11636.36364,2022-10-01
+Eastern Province,Hafar Al Batin,Studio - Residential,382,10133.77483,2022-10-01
+Eastern Province,Ras Tanura,Studio - Residential,27,11547.82609,2022-10-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Studio - Residential,7,19000.0,2022-10-01
+Eastern Province,Al Ahsa,Duplex - Residential,34,24400.0,2022-10-01
+Eastern Province,Al Jubail,Duplex - Residential,9,30571.42857,2022-10-01
+Eastern Province,Al Khobar,Duplex - Residential,158,51601.24658,2022-10-01
+Eastern Province,Al Khafji,Duplex - Residential,1,25000.0,2022-10-01
+Eastern Province,Dammam,Duplex - Residential,248,39841.79556,2022-10-01
+Eastern Province,Al Oyoun,Duplex - Residential,3,16000.0,2022-10-01
+Eastern Province,Al Qatif,Duplex - Residential,36,28823.74286,2022-10-01
+Eastern Province,Buqayq,Duplex - Residential,1,25000.0,2022-10-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,15,16615.38462,2022-10-01
+Eastern Province,Ras Tanura,Duplex - Residential,1,23000.0,2022-10-01
+Eastern Province,Al Ahsa,Floor - Residential,338,16540.33108,2022-10-01
+Eastern Province,Al Jubail,Floor - Residential,17,27000.0,2022-10-01
+Eastern Province,Al Khobar,Floor - Residential,237,33405.40909,2022-10-01
+Eastern Province,Al Khafji,Floor - Residential,74,18170.0,2022-10-01
+Eastern Province,Dammam,Floor - Residential,525,27407.43333,2022-10-01
+Eastern Province,Al Dhibiyah,Floor - Residential,9,18150.0,2022-10-01
+Eastern Province,Al Oyoun,Floor - Residential,24,17600.0,2022-10-01
+Eastern Province,Al Qatif,Floor - Residential,66,16935.0,2022-10-01
+Eastern Province,Al Qaisumah,Floor - Residential,36,14600.0,2022-10-01
+Eastern Province,Al Nairyah,Floor - Residential,39,19612.90323,2022-10-01
+Eastern Province,Buqayq,Floor - Residential,44,28806.89655,2022-10-01
+Eastern Province,Hafar Al Batin,Floor - Residential,374,14107.33333,2022-10-01
+Eastern Province,Ras Tanura,Floor - Residential,42,20281.88571,2022-10-01
+Eastern Province,Samudah,Floor - Residential,1,12000.0,2022-10-01
+Eastern Province,Qaryat Al Ulya,Floor - Residential,1,10800.0,2022-10-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Floor - Residential,1,15000.0,2022-10-01
+Eastern Province,Mulayjah,Floor - Residential,1,6000.0,2022-10-01
+Eastern Province,Al Ahsa,Apartment - Residential,11506,11987.64206,2022-10-01
+Eastern Province,Al Jubail,Apartment - Residential,5884,18461.47823,2022-10-01
+Eastern Province,Al Khobar,Apartment - Residential,14723,19125.54297,2022-10-01
+Eastern Province,Al Khafji,Apartment - Residential,1264,12343.3445,2022-10-01
+Eastern Province,Dammam,Apartment - Residential,27143,17041.75487,2022-10-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,427,12574.35028,2022-10-01
+Eastern Province,Al Su'ayrah,Apartment - Residential,13,8228.571428,2022-10-01
+Eastern Province,Al Oyoun,Apartment - Residential,327,11926.43571,2022-10-01
+Eastern Province,Al Qatif,Apartment - Residential,3223,15588.46604,2022-10-01
+Eastern Province,Al Qaisumah,Apartment - Residential,240,8162.015503,2022-10-01
+Eastern Province,Al Nairyah,Apartment - Residential,1051,13533.68421,2022-10-01
+Eastern Province,Buqayq,Apartment - Residential,374,16220.70039,2022-10-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,6703,8905.444816,2022-10-01
+Eastern Province,Khubayra,Apartment - Residential,1,6000.0,2022-10-01
+Eastern Province,Ras Tanura,Apartment - Residential,792,14943.22432,2022-10-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,70,10170.73171,2022-10-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Apartment - Residential,72,9138.235294,2022-10-01
+Eastern Province,Mulayjah,Apartment - Residential,19,7445.454545,2022-10-01
+Eastern Province,Yabrin,Apartment - Residential,3,6000.0,2022-10-01
+Eastern Province,Al Ahsa,Villa - Residential,199,21393.78882,2022-10-01
+Eastern Province,Al Jubail,Villa - Residential,77,60635.05797,2022-10-01
+Eastern Province,Al Khobar,Villa - Residential,655,78725.88536,2022-10-01
+Eastern Province,Al Khafji,Villa - Residential,10,21022.22222,2022-10-01
+Eastern Province,Dammam,Villa - Residential,507,51171.58738,2022-10-01
+Eastern Province,Al Dhibiyah,Villa - Residential,4,18900.0,2022-10-01
+Eastern Province,Al Oyoun,Villa - Residential,1,20000.0,2022-10-01
+Eastern Province,Al Qatif,Villa - Residential,23,30561.90476,2022-10-01
+Eastern Province,Al Qaisumah,Villa - Residential,3,10200.0,2022-10-01
+Eastern Province,Al Nairyah,Villa - Residential,14,28785.71429,2022-10-01
+Eastern Province,Buqayq,Villa - Residential,3,41500.0,2022-10-01
+Eastern Province,Hafar Al Batin,Villa - Residential,23,19589.47368,2022-10-01
+Eastern Province,Ras Tanura,Villa - Residential,7,47000.0,2022-10-01
+Eastern Province,Yabrin,Villa - Residential,1,50000.0,2022-10-01
+Eastern Province,Al Ahsa,Studio - Residential,609,10229.19718,2023-01-01
+Eastern Province,Al Jubail,Studio - Residential,718,13297.31458,2023-01-01
+Eastern Province,Al Khobar,Studio - Residential,1503,13239.20313,2023-01-01
+Eastern Province,Al Khafji,Studio - Residential,73,12943.60656,2023-01-01
+Eastern Province,Dammam,Studio - Residential,2515,12176.44784,2023-01-01
+Eastern Province,Al Oyoun,Studio - Residential,14,8288.888888,2023-01-01
+Eastern Province,Al Qatif,Studio - Residential,142,12090.56604,2023-01-01
+Eastern Province,Al Qaisumah,Studio - Residential,1,12000.0,2023-01-01
+Eastern Province,Al Nairyah,Studio - Residential,61,15903.57143,2023-01-01
+Eastern Province,Buqayq,Studio - Residential,22,13000.0,2023-01-01
+Eastern Province,Hafar Al Batin,Studio - Residential,310,10424.84472,2023-01-01
+Eastern Province,Ras Tanura,Studio - Residential,52,13668.18182,2023-01-01
+Eastern Province,Al Ahsa,Duplex - Residential,23,24126.08696,2023-01-01
+Eastern Province,Al Jubail,Duplex - Residential,26,34316.66667,2023-01-01
+Eastern Province,Al Khobar,Duplex - Residential,165,56401.83803,2023-01-01
+Eastern Province,Dammam,Duplex - Residential,334,40152.61049,2023-01-01
+Eastern Province,Al Oyoun,Duplex - Residential,1,18000.0,2023-01-01
+Eastern Province,Al Qatif,Duplex - Residential,23,24826.69565,2023-01-01
+Eastern Province,Al Nairyah,Duplex - Residential,1,21600.0,2023-01-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,11,18327.27273,2023-01-01
+Eastern Province,Ras Tanura,Duplex - Residential,3,24333.33333,2023-01-01
+Eastern Province,Al Ahsa,Floor - Residential,276,16844.11064,2023-01-01
+Eastern Province,Al Jubail,Floor - Residential,29,27155.0,2023-01-01
+Eastern Province,Al Khobar,Floor - Residential,225,28800.26667,2023-01-01
+Eastern Province,Al Khafji,Floor - Residential,57,19689.79592,2023-01-01
+Eastern Province,Dammam,Floor - Residential,516,26399.17783,2023-01-01
+Eastern Province,Al Dhibiyah,Floor - Residential,10,14825.0,2023-01-01
+Eastern Province,Al Oyoun,Floor - Residential,14,12440.0,2023-01-01
+Eastern Province,Al Qatif,Floor - Residential,63,20374.85246,2023-01-01
+Eastern Province,Al Qaisumah,Floor - Residential,33,15360.0,2023-01-01
+Eastern Province,Al Nairyah,Floor - Residential,27,21533.33333,2023-01-01
+Eastern Province,Buqayq,Floor - Residential,43,30116.66667,2023-01-01
+Eastern Province,Hafar Al Batin,Floor - Residential,338,14195.62044,2023-01-01
+Eastern Province,Ras Tanura,Floor - Residential,27,21770.0,2023-01-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Floor - Residential,4,16100.0,2023-01-01
+Eastern Province,Mulayjah,Floor - Residential,1,17000.0,2023-01-01
+Eastern Province,Al Ahsa,Apartment - Residential,11013,12202.23881,2023-01-01
+Eastern Province,Al Buwaybiyat,Apartment - Residential,1,6000.0,2023-01-01
+Eastern Province,Al Jubail,Apartment - Residential,6146,18483.11166,2023-01-01
+Eastern Province,Al Khobar,Apartment - Residential,14594,18948.03709,2023-01-01
+Eastern Province,Al Khafji,Apartment - Residential,1418,12396.95528,2023-01-01
+Eastern Province,Dammam,Apartment - Residential,28130,16941.14278,2023-01-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,456,12169.34097,2023-01-01
+Eastern Province,Al Su'ayrah,Apartment - Residential,8,7983.333333,2023-01-01
+Eastern Province,Al Sadowi,Apartment - Residential,1,6000.0,2023-01-01
+Eastern Province,Al Oyoun,Apartment - Residential,310,11703.44355,2023-01-01
+Eastern Province,Al Qatif,Apartment - Residential,3094,15556.5654,2023-01-01
+Eastern Province,Al Qaisumah,Apartment - Residential,244,9938.095238,2023-01-01
+Eastern Province,Al Nairyah,Apartment - Residential,1036,14496.63066,2023-01-01
+Eastern Province,Buqayq,Apartment - Residential,488,15897.19328,2023-01-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,6399,9611.596244,2023-01-01
+Eastern Province,Ras Tanura,Apartment - Residential,778,15017.85714,2023-01-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,78,9551.020408,2023-01-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Apartment - Residential,54,7210.344827,2023-01-01
+Eastern Province,Mulayjah,Apartment - Residential,8,11742.85714,2023-01-01
+Eastern Province,Manakh,Apartment - Residential,1,5000.0,2023-01-01
+Eastern Province,Al Ahsa,Villa - Residential,138,23868.37607,2023-01-01
+Eastern Province,Al Jubail,Villa - Residential,74,52077.20588,2023-01-01
+Eastern Province,Al Khobar,Villa - Residential,753,79149.3864,2023-01-01
+Eastern Province,Al Khafji,Villa - Residential,13,29966.66667,2023-01-01
+Eastern Province,Dammam,Villa - Residential,574,50602.11506,2023-01-01
+Eastern Province,Al Dhibiyah,Villa - Residential,5,18200.0,2023-01-01
+Eastern Province,Al Oyoun,Villa - Residential,3,19000.0,2023-01-01
+Eastern Province,Al Qatif,Villa - Residential,29,30622.22222,2023-01-01
+Eastern Province,Al Qaisumah,Villa - Residential,2,21000.0,2023-01-01
+Eastern Province,Al Nairyah,Villa - Residential,6,26000.0,2023-01-01
+Eastern Province,Buqayq,Villa - Residential,6,48800.0,2023-01-01
+Eastern Province,Hafar Al Batin,Villa - Residential,22,25400.0,2023-01-01
+Eastern Province,Ras Tanura,Villa - Residential,12,37688.88889,2023-01-01
+Eastern Province,Al Ahsa,Studio - Residential,675,9053.230452,2023-04-01
+Eastern Province,Al Jubail,Studio - Residential,634,12253.49462,2023-04-01
+Eastern Province,Al Khobar,Studio - Residential,1397,13727.93107,2023-04-01
+Eastern Province,Al Khafji,Studio - Residential,90,13062.5,2023-04-01
+Eastern Province,Dammam,Studio - Residential,2608,11476.90973,2023-04-01
+Eastern Province,Al Oyoun,Studio - Residential,18,9355.555555,2023-04-01
+Eastern Province,Al Qatif,Studio - Residential,163,9831.972789,2023-04-01
+Eastern Province,Al Qaisumah,Studio - Residential,5,13200.0,2023-04-01
+Eastern Province,Al Nairyah,Studio - Residential,68,15221.73913,2023-04-01
+Eastern Province,Buqayq,Studio - Residential,25,11647.05882,2023-04-01
+Eastern Province,Hafar Al Batin,Studio - Residential,554,7940.576744,2023-04-01
+Eastern Province,Ras Tanura,Studio - Residential,46,10915.0,2023-04-01
+Eastern Province,Qaryat Al Ulya,Studio - Residential,1,9600.0,2023-04-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Studio - Residential,2,10800.0,2023-04-01
+Eastern Province,Al Ahsa,Duplex - Residential,36,20590.90909,2023-04-01
+Eastern Province,Al Jubail,Duplex - Residential,8,38875.0,2023-04-01
+Eastern Province,Al Khobar,Duplex - Residential,146,53675.84112,2023-04-01
+Eastern Province,Al Khafji,Duplex - Residential,1,15600.0,2023-04-01
+Eastern Province,Dammam,Duplex - Residential,237,40804.73488,2023-04-01
+Eastern Province,Al Oyoun,Duplex - Residential,4,19666.66667,2023-04-01
+Eastern Province,Al Qatif,Duplex - Residential,46,26676.62791,2023-04-01
+Eastern Province,Al Qaisumah,Duplex - Residential,1,24000.0,2023-04-01
+Eastern Province,Al Nairyah,Duplex - Residential,1,18000.0,2023-04-01
+Eastern Province,Buqayq,Duplex - Residential,1,12000.0,2023-04-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,5,15300.0,2023-04-01
+Eastern Province,Ras Tanura,Duplex - Residential,3,25333.33333,2023-04-01
+Eastern Province,Al Ahsa,Floor - Residential,261,15426.66222,2023-04-01
+Eastern Province,Al Jubail,Floor - Residential,14,29083.33333,2023-04-01
+Eastern Province,Al Khobar,Floor - Residential,161,29649.20635,2023-04-01
+Eastern Province,Al Khafji,Floor - Residential,58,17668.0,2023-04-01
+Eastern Province,Dammam,Floor - Residential,460,26891.85908,2023-04-01
+Eastern Province,Al Dhibiyah,Floor - Residential,5,14040.0,2023-04-01
+Eastern Province,Al Oyoun,Floor - Residential,16,18312.5,2023-04-01
+Eastern Province,Al Qatif,Floor - Residential,66,18428.68852,2023-04-01
+Eastern Province,Al Qaisumah,Floor - Residential,34,15346.15385,2023-04-01
+Eastern Province,Al Nairyah,Floor - Residential,23,17315.78947,2023-04-01
+Eastern Province,Buqayq,Floor - Residential,40,24645.16129,2023-04-01
+Eastern Province,Hafar Al Batin,Floor - Residential,387,14265.21333,2023-04-01
+Eastern Province,Ras Tanura,Floor - Residential,40,22763.33333,2023-04-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Floor - Residential,1,6000.0,2023-04-01
+Eastern Province,Al Ahsa,Apartment - Residential,11056,11819.857,2023-04-01
+Eastern Province,Al Jubail,Apartment - Residential,5291,18571.56077,2023-04-01
+Eastern Province,Al Khobar,Apartment - Residential,14436,19451.76255,2023-04-01
+Eastern Province,Al Khafji,Apartment - Residential,1434,12676.56075,2023-04-01
+Eastern Province,Dammam,Apartment - Residential,26816,16674.25572,2023-04-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,420,12057.56272,2023-04-01
+Eastern Province,Al Su'ayrah,Apartment - Residential,9,8700.0,2023-04-01
+Eastern Province,Al Oyoun,Apartment - Residential,380,10449.70297,2023-04-01
+Eastern Province,Al Qatif,Apartment - Residential,3197,15255.42947,2023-04-01
+Eastern Province,Al Qaisumah,Apartment - Residential,279,8868.055555,2023-04-01
+Eastern Province,Al Nairyah,Apartment - Residential,957,14617.90017,2023-04-01
+Eastern Province,Buqayq,Apartment - Residential,437,15153.4375,2023-04-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,6506,9322.354196,2023-04-01
+Eastern Province,Ras Tanura,Apartment - Residential,811,14316.2576,2023-04-01
+Eastern Province,Samudah,Apartment - Residential,1,12000.0,2023-04-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,84,9187.111111,2023-04-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Apartment - Residential,53,7415.625,2023-04-01
+Eastern Province,Mulayjah,Apartment - Residential,2,12000.0,2023-04-01
+Eastern Province,Yabrin,Apartment - Residential,4,6000.0,2023-04-01
+Eastern Province,Al Ahsa,Villa - Residential,143,25347.10744,2023-04-01
+Eastern Province,Al Jubail,Villa - Residential,72,56753.90625,2023-04-01
+Eastern Province,Al Khobar,Villa - Residential,887,77620.38412,2023-04-01
+Eastern Province,Al Khafji,Villa - Residential,20,31941.17647,2023-04-01
+Eastern Province,Dammam,Villa - Residential,527,52961.18224,2023-04-01
+Eastern Province,Al Dhibiyah,Villa - Residential,5,18720.0,2023-04-01
+Eastern Province,Al Oyoun,Villa - Residential,2,23300.0,2023-04-01
+Eastern Province,Al Qatif,Villa - Residential,31,28065.38462,2023-04-01
+Eastern Province,Al Qaisumah,Villa - Residential,1,14400.0,2023-04-01
+Eastern Province,Al Nairyah,Villa - Residential,4,27333.33333,2023-04-01
+Eastern Province,Buqayq,Villa - Residential,3,44250.0,2023-04-01
+Eastern Province,Hafar Al Batin,Villa - Residential,39,21803.0303,2023-04-01
+Eastern Province,Ras Tanura,Villa - Residential,1,36000.0,2023-04-01
+Eastern Province,Qaryat Al Ulya,Villa - Residential,1,9600.0,2023-04-01
+Eastern Province,Al Ahsa,Studio - Residential,1007,9238.494186,2023-07-01
+Eastern Province,Al Jubail,Studio - Residential,685,13626.48585,2023-07-01
+Eastern Province,Al Khobar,Studio - Residential,1467,14099.29104,2023-07-01
+Eastern Province,Al Khafji,Studio - Residential,159,13835.06849,2023-07-01
+Eastern Province,Dammam,Studio - Residential,3412,12020.79251,2023-07-01
+Eastern Province,Al Oyoun,Studio - Residential,16,10888.88889,2023-07-01
+Eastern Province,Al Qatif,Studio - Residential,159,9102.325581,2023-07-01
+Eastern Province,Al Qaisumah,Studio - Residential,16,8142.857142,2023-07-01
+Eastern Province,Al Nairyah,Studio - Residential,69,15881.35593,2023-07-01
+Eastern Province,Buqayq,Studio - Residential,14,11215.38462,2023-07-01
+Eastern Province,Hafar Al Batin,Studio - Residential,959,9238.143603,2023-07-01
+Eastern Province,Ras Tanura,Studio - Residential,58,10792.98246,2023-07-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Studio - Residential,5,6000.0,2023-07-01
+Eastern Province,Al Ahsa,Duplex - Residential,42,25042.5,2023-07-01
+Eastern Province,Al Jubail,Duplex - Residential,15,33066.66667,2023-07-01
+Eastern Province,Al Khobar,Duplex - Residential,133,47639.22764,2023-07-01
+Eastern Province,Al Khafji,Duplex - Residential,5,22300.0,2023-07-01
+Eastern Province,Dammam,Duplex - Residential,284,43965.70817,2023-07-01
+Eastern Province,Al Oyoun,Duplex - Residential,2,20000.0,2023-07-01
+Eastern Province,Al Qatif,Duplex - Residential,27,24166.66667,2023-07-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,7,12800.0,2023-07-01
+Eastern Province,Ras Tanura,Duplex - Residential,1,40000.0,2023-07-01
+Eastern Province,Al Ahsa,Floor - Residential,386,16618.62236,2023-07-01
+Eastern Province,Al Jubail,Floor - Residential,32,38339.28571,2023-07-01
+Eastern Province,Al Khobar,Floor - Residential,230,27881.81865,2023-07-01
+Eastern Province,Al Khafji,Floor - Residential,75,18666.66667,2023-07-01
+Eastern Province,Dammam,Floor - Residential,541,26606.30905,2023-07-01
+Eastern Province,Al Dhibiyah,Floor - Residential,14,13450.0,2023-07-01
+Eastern Province,Al Sadowi,Floor - Residential,1,12000.0,2023-07-01
+Eastern Province,Al Oyoun,Floor - Residential,17,16127.27273,2023-07-01
+Eastern Province,Al Qatif,Floor - Residential,99,21720.43011,2023-07-01
+Eastern Province,Al Qaisumah,Floor - Residential,32,12990.47619,2023-07-01
+Eastern Province,Al Nairyah,Floor - Residential,40,22092.85714,2023-07-01
+Eastern Province,Buqayq,Floor - Residential,51,27241.65,2023-07-01
+Eastern Province,Hafar Al Batin,Floor - Residential,560,14530.16241,2023-07-01
+Eastern Province,Ras Tanura,Floor - Residential,63,20956.86275,2023-07-01
+Eastern Province,Samudah,Floor - Residential,2,9200.0,2023-07-01
+Eastern Province,Qaryat Al Ulya,Floor - Residential,3,9600.0,2023-07-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Floor - Residential,2,19000.0,2023-07-01
+Eastern Province,Yabrin,Floor - Residential,1,8400.0,2023-07-01
+Eastern Province,Al Ahsa,Apartment - Residential,14928,11921.43802,2023-07-01
+Eastern Province,Al Buwaybiyat,Apartment - Residential,1,6000.0,2023-07-01
+Eastern Province,Al Jubail,Apartment - Residential,6324,18134.07157,2023-07-01
+Eastern Province,Al Khobar,Apartment - Residential,17040,20264.06086,2023-07-01
+Eastern Province,Al Khafji,Apartment - Residential,1999,12412.58317,2023-07-01
+Eastern Province,Dammam,Apartment - Residential,31765,17073.07881,2023-07-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,589,11903.01802,2023-07-01
+Eastern Province,Al Su'ayrah,Apartment - Residential,10,10100.0,2023-07-01
+Eastern Province,Al Sadowi,Apartment - Residential,3,6500.0,2023-07-01
+Eastern Province,Al Oyoun,Apartment - Residential,533,10764.49782,2023-07-01
+Eastern Province,Al Qatif,Apartment - Residential,4172,14901.71581,2023-07-01
+Eastern Province,Al Qaisumah,Apartment - Residential,419,8298.206278,2023-07-01
+Eastern Province,Al Nairyah,Apartment - Residential,1307,14312.48845,2023-07-01
+Eastern Province,Buqayq,Apartment - Residential,522,14680.41624,2023-07-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,10034,9441.474299,2023-07-01
+Eastern Province,Khubayra,Apartment - Residential,1,12000.0,2023-07-01
+Eastern Province,Ras Tanura,Apartment - Residential,1135,14585.69424,2023-07-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,111,9378.260869,2023-07-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Apartment - Residential,81,7248.333333,2023-07-01
+Eastern Province,Mulayjah,Apartment - Residential,33,7755.555555,2023-07-01
+Eastern Province,Manakh,Apartment - Residential,1,5000.0,2023-07-01
+Eastern Province,Yabrin,Apartment - Residential,14,7200.0,2023-07-01
+Eastern Province,Al Ahsa,Villa - Residential,191,20932.5,2023-07-01
+Eastern Province,Al Jubail,Villa - Residential,89,51559.09091,2023-07-01
+Eastern Province,Al Khobar,Villa - Residential,966,80773.13365,2023-07-01
+Eastern Province,Al Khafji,Villa - Residential,33,27764.28571,2023-07-01
+Eastern Province,Dammam,Villa - Residential,683,52740.45,2023-07-01
+Eastern Province,Al Dhibiyah,Villa - Residential,6,20200.0,2023-07-01
+Eastern Province,Al Oyoun,Villa - Residential,5,13280.0,2023-07-01
+Eastern Province,Al Qatif,Villa - Residential,39,33145.45455,2023-07-01
+Eastern Province,Al Qaisumah,Villa - Residential,2,24000.0,2023-07-01
+Eastern Province,Al Nairyah,Villa - Residential,7,28857.14286,2023-07-01
+Eastern Province,Buqayq,Villa - Residential,5,26750.0,2023-07-01
+Eastern Province,Hafar Al Batin,Villa - Residential,43,24397.22222,2023-07-01
+Eastern Province,Ras Tanura,Villa - Residential,5,32600.0,2023-07-01
+Eastern Province,Qaryat Al Ulya,Villa - Residential,1,9600.0,2023-07-01
+Eastern Province,Al Ahsa,Studio - Residential,757,9819.241758,2023-10-01
+Eastern Province,Al Jubail,Studio - Residential,754,13622.68344,2023-10-01
+Eastern Province,Al Khobar,Studio - Residential,1606,13821.03668,2023-10-01
+Eastern Province,Al Khafji,Studio - Residential,107,13721.08861,2023-10-01
+Eastern Province,Dammam,Studio - Residential,3181,11974.02776,2023-10-01
+Eastern Province,Al Oyoun,Studio - Residential,17,12090.90909,2023-10-01
+Eastern Province,Al Qatif,Studio - Residential,199,10419.82759,2023-10-01
+Eastern Province,Al Qaisumah,Studio - Residential,5,12960.0,2023-10-01
+Eastern Province,Al Nairyah,Studio - Residential,87,16627.80488,2023-10-01
+Eastern Province,Buqayq,Studio - Residential,17,11450.0,2023-10-01
+Eastern Province,Hafar Al Batin,Studio - Residential,379,10072.72727,2023-10-01
+Eastern Province,Ras Tanura,Studio - Residential,94,11256.17021,2023-10-01
+Eastern Province,Qaryat Al Ulya,Studio - Residential,1,12000.0,2023-10-01
+Eastern Province,Al Ahsa,Duplex - Residential,40,22484.43243,2023-10-01
+Eastern Province,Al Jubail,Duplex - Residential,25,38000.0,2023-10-01
+Eastern Province,Al Khobar,Duplex - Residential,170,53911.9863,2023-10-01
+Eastern Province,Al Khafji,Duplex - Residential,7,22200.0,2023-10-01
+Eastern Province,Dammam,Duplex - Residential,339,44332.82848,2023-10-01
+Eastern Province,Al Oyoun,Duplex - Residential,1,12000.0,2023-10-01
+Eastern Province,Al Qatif,Duplex - Residential,44,27050.7381,2023-10-01
+Eastern Province,Al Nairyah,Duplex - Residential,1,26400.0,2023-10-01
+Eastern Province,Buqayq,Duplex - Residential,1,18000.0,2023-10-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,6,14475.0,2023-10-01
+Eastern Province,Al Ahsa,Floor - Residential,388,15586.78679,2023-10-01
+Eastern Province,Al Jubail,Floor - Residential,21,39014.28571,2023-10-01
+Eastern Province,Al Khobar,Floor - Residential,251,31429.5098,2023-10-01
+Eastern Province,Al Khafji,Floor - Residential,78,19093.75,2023-10-01
+Eastern Province,Dammam,Floor - Residential,589,27723.82365,2023-10-01
+Eastern Province,Al Dhibiyah,Floor - Residential,8,13425.0,2023-10-01
+Eastern Province,Al Oyoun,Floor - Residential,13,18826.92308,2023-10-01
+Eastern Province,Al Qatif,Floor - Residential,96,17541.83908,2023-10-01
+Eastern Province,Al Qaisumah,Floor - Residential,48,14142.85714,2023-10-01
+Eastern Province,Al Nairyah,Floor - Residential,57,20523.07692,2023-10-01
+Eastern Province,Buqayq,Floor - Residential,57,31104.25532,2023-10-01
+Eastern Province,Hafar Al Batin,Floor - Residential,531,14070.4388,2023-10-01
+Eastern Province,Ras Tanura,Floor - Residential,39,18097.22222,2023-10-01
+Eastern Province,Qaryat Al Ulya,Floor - Residential,1,6000.0,2023-10-01
+Eastern Province,Al Ahsa,Apartment - Residential,15880,12213.132,2023-10-01
+Eastern Province,Al Buwaybiyat,Apartment - Residential,1,9000.0,2023-10-01
+Eastern Province,Al Jubail,Apartment - Residential,6920,17864.46746,2023-10-01
+Eastern Province,Al Khobar,Apartment - Residential,18490,19650.96307,2023-10-01
+Eastern Province,Al Khafji,Apartment - Residential,2151,12639.06156,2023-10-01
+Eastern Province,Dammam,Apartment - Residential,35139,17099.80189,2023-10-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,802,12205.25637,2023-10-01
+Eastern Province,Al Su'ayrah,Apartment - Residential,21,8864.285714,2023-10-01
+Eastern Province,Al Sadowi,Apartment - Residential,1,6000.0,2023-10-01
+Eastern Province,Al Oyoun,Apartment - Residential,597,11234.14481,2023-10-01
+Eastern Province,Al Qatif,Apartment - Residential,4948,15264.98752,2023-10-01
+Eastern Province,Al Qalat,Apartment - Residential,1,12000.0,2023-10-01
+Eastern Province,Al Qaisumah,Apartment - Residential,482,10259.4939,2023-10-01
+Eastern Province,Al Nairyah,Apartment - Residential,1452,14303.28201,2023-10-01
+Eastern Province,Umm Ghalib,Apartment - Residential,2,7200.0,2023-10-01
+Eastern Province,Buqayq,Apartment - Residential,765,15977.37691,2023-10-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,9667,10746.43177,2023-10-01
+Eastern Province,Khubayra,Apartment - Residential,1,6000.0,2023-10-01
+Eastern Province,Ras Tanura,Apartment - Residential,1243,14790.99341,2023-10-01
+Eastern Province,Samudah,Apartment - Residential,1,12000.0,2023-10-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,132,9631.683168,2023-10-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Apartment - Residential,130,10139.68254,2023-10-01
+Eastern Province,Mulayjah,Apartment - Residential,84,12032.75862,2023-10-01
+Eastern Province,Yabrin,Apartment - Residential,22,11635.29412,2023-10-01
+Eastern Province,Al Ahsa,Villa - Residential,226,22580.96447,2023-10-01
+Eastern Province,Al Jubail,Villa - Residential,76,50551.88235,2023-10-01
+Eastern Province,Al Khobar,Villa - Residential,878,83883.00254,2023-10-01
+Eastern Province,Al Khafji,Villa - Residential,17,26133.6,2023-10-01
+Eastern Province,Dammam,Villa - Residential,731,51931.45051,2023-10-01
+Eastern Province,Al Dhibiyah,Villa - Residential,5,19200.0,2023-10-01
+Eastern Province,Al Oyoun,Villa - Residential,4,21250.0,2023-10-01
+Eastern Province,Al Qatif,Villa - Residential,42,29304.77143,2023-10-01
+Eastern Province,Al Qaisumah,Villa - Residential,4,28133.33333,2023-10-01
+Eastern Province,Al Nairyah,Villa - Residential,12,37272.72727,2023-10-01
+Eastern Province,Buqayq,Villa - Residential,6,28600.0,2023-10-01
+Eastern Province,Hafar Al Batin,Villa - Residential,61,22333.33333,2023-10-01
+Eastern Province,Ras Tanura,Villa - Residential,16,36642.85714,2023-10-01
+Eastern Province,Qaryat Al Ulya,Villa - Residential,1,9600.0,2023-10-01
+Eastern Province,Al Ahsa,Studio - Residential,813,10350.71979,2024-01-01
+Eastern Province,Al Jubail,Studio - Residential,842,13445.52577,2024-01-01
+Eastern Province,Al Khobar,Studio - Residential,2183,12997.15101,2024-01-01
+Eastern Province,Al Khafji,Studio - Residential,94,14994.88462,2024-01-01
+Eastern Province,Dammam,Studio - Residential,3917,12331.75715,2024-01-01
+Eastern Province,Al Oyoun,Studio - Residential,8,10760.0,2024-01-01
+Eastern Province,Al Qatif,Studio - Residential,147,11326.5625,2024-01-01
+Eastern Province,Al Qaisumah,Studio - Residential,2,12600.0,2024-01-01
+Eastern Province,Al Nairyah,Studio - Residential,58,16751.69811,2024-01-01
+Eastern Province,Buqayq,Studio - Residential,23,14173.68421,2024-01-01
+Eastern Province,Hafar Al Batin,Studio - Residential,268,10886.25,2024-01-01
+Eastern Province,Ras Tanura,Studio - Residential,89,13244.31373,2024-01-01
+Eastern Province,Qaryat Al Ulya,Studio - Residential,1,12000.0,2024-01-01
+Eastern Province,Al Ahsa,Duplex - Residential,49,25348.86364,2024-01-01
+Eastern Province,Al Jubail,Duplex - Residential,27,37023.07692,2024-01-01
+Eastern Province,Al Khobar,Duplex - Residential,188,47625.76836,2024-01-01
+Eastern Province,Dammam,Duplex - Residential,357,40911.54103,2024-01-01
+Eastern Province,Al Qatif,Duplex - Residential,43,26246.15385,2024-01-01
+Eastern Province,Buqayq,Duplex - Residential,2,21500.0,2024-01-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,11,15870.0,2024-01-01
+Eastern Province,Ras Tanura,Duplex - Residential,2,21500.0,2024-01-01
+Eastern Province,Al Ahsa,Floor - Residential,344,17351.0274,2024-01-01
+Eastern Province,Al Jubail,Floor - Residential,33,34136.36364,2024-01-01
+Eastern Province,Al Khobar,Floor - Residential,294,28037.23182,2024-01-01
+Eastern Province,Al Khafji,Floor - Residential,84,20445.45455,2024-01-01
+Eastern Province,Dammam,Floor - Residential,612,26748.64103,2024-01-01
+Eastern Province,Al Dhibiyah,Floor - Residential,17,17157.14286,2024-01-01
+Eastern Province,Al Oyoun,Floor - Residential,15,25661.53846,2024-01-01
+Eastern Province,Al Qatif,Floor - Residential,85,23361.33333,2024-01-01
+Eastern Province,Al Qaisumah,Floor - Residential,39,14840.0,2024-01-01
+Eastern Province,Al Nairyah,Floor - Residential,47,20064.70588,2024-01-01
+Eastern Province,Buqayq,Floor - Residential,55,33450.0,2024-01-01
+Eastern Province,Hafar Al Batin,Floor - Residential,465,15411.60052,2024-01-01
+Eastern Province,Ras Tanura,Floor - Residential,65,20629.32,2024-01-01
+Eastern Province,Qaryat Al Ulya,Floor - Residential,1,24000.0,2024-01-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Floor - Residential,2,14700.0,2024-01-01
+Eastern Province,Al Ahsa,Apartment - Residential,14474,12870.0095,2024-01-01
+Eastern Province,Al Buwaybiyat,Apartment - Residential,1,6000.0,2024-01-01
+Eastern Province,Al Jubail,Apartment - Residential,8828,18304.69998,2024-01-01
+Eastern Province,Al Haira,Apartment - Residential,1,12000.0,2024-01-01
+Eastern Province,Al Khobar,Apartment - Residential,20924,19663.93622,2024-01-01
+Eastern Province,Al Khafji,Apartment - Residential,1709,13990.2017,2024-01-01
+Eastern Province,Dammam,Apartment - Residential,35846,17604.60247,2024-01-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,508,12594.47867,2024-01-01
+Eastern Province,Al Su'ayrah,Apartment - Residential,12,13254.54545,2024-01-01
+Eastern Province,Al Sadowi,Apartment - Residential,1,9000.0,2024-01-01
+Eastern Province,Al Oyoun,Apartment - Residential,492,12341.79679,2024-01-01
+Eastern Province,Al Qatif,Apartment - Residential,4212,15998.58716,2024-01-01
+Eastern Province,Al Qaisumah,Apartment - Residential,394,11581.57585,2024-01-01
+Eastern Province,Al Nadhim,Apartment - Residential,2,15000.0,2024-01-01
+Eastern Province,Al Nairyah,Apartment - Residential,1179,15854.62069,2024-01-01
+Eastern Province,Buqayq,Apartment - Residential,804,16028.78261,2024-01-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,7407,12191.77646,2024-01-01
+Eastern Province,Ras Tanura,Apartment - Residential,1200,15429.12339,2024-01-01
+Eastern Province,Samudah,Apartment - Residential,1,12000.0,2024-01-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,97,12302.10843,2024-01-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Apartment - Residential,111,12508.69565,2024-01-01
+Eastern Province,Maarij Al Suban,Apartment - Residential,1,15000.0,2024-01-01
+Eastern Province,Mulayjah,Apartment - Residential,37,12709.09091,2024-01-01
+Eastern Province,Manakh,Apartment - Residential,2,12000.0,2024-01-01
+Eastern Province,Yabrin,Apartment - Residential,11,18400.0,2024-01-01
+Eastern Province,Al Ahsa,Villa - Residential,211,27772.38372,2024-01-01
+Eastern Province,Al Jubail,Villa - Residential,147,52993.05825,2024-01-01
+Eastern Province,Al Khobar,Villa - Residential,1060,78551.32972,2024-01-01
+Eastern Province,Al Khafji,Villa - Residential,12,23700.0,2024-01-01
+Eastern Province,Dammam,Villa - Residential,726,56417.74267,2024-01-01
+Eastern Province,Al Dhibiyah,Villa - Residential,4,20400.0,2024-01-01
+Eastern Province,Al Oyoun,Villa - Residential,4,20600.0,2024-01-01
+Eastern Province,Al Qatif,Villa - Residential,29,28491.66667,2024-01-01
+Eastern Province,Al Qaisumah,Villa - Residential,3,22533.33333,2024-01-01
+Eastern Province,Al Nairyah,Villa - Residential,14,32615.38462,2024-01-01
+Eastern Province,Buqayq,Villa - Residential,7,49038.0,2024-01-01
+Eastern Province,Hafar Al Batin,Villa - Residential,48,24023.80952,2024-01-01
+Eastern Province,Ras Tanura,Villa - Residential,7,40785.71429,2024-01-01
+Eastern Province,Mulayjah,Villa - Residential,3,12800.0,2024-01-01
+Eastern Province,Al Ahsa,Studio - Residential,720,10593.89925,2024-04-01
+Eastern Province,Al Jubail,Studio - Residential,922,13810.49596,2024-04-01
+Eastern Province,Al Khobar,Studio - Residential,1986,13516.86151,2024-04-01
+Eastern Province,Al Khafji,Studio - Residential,92,11774.53571,2024-04-01
+Eastern Province,Dammam,Studio - Residential,3370,12089.08301,2024-04-01
+Eastern Province,Al Dhibiyah,Studio - Residential,3,8000.0,2024-04-01
+Eastern Province,Al Oyoun,Studio - Residential,21,9825.0,2024-04-01
+Eastern Province,Al Qatif,Studio - Residential,109,15163.37209,2024-04-01
+Eastern Province,Al Qaisumah,Studio - Residential,2,11600.0,2024-04-01
+Eastern Province,Al Nairyah,Studio - Residential,65,16120.37037,2024-04-01
+Eastern Province,Buqayq,Studio - Residential,26,12826.08696,2024-04-01
+Eastern Province,Hafar Al Batin,Studio - Residential,265,10360.56338,2024-04-01
+Eastern Province,Ras Tanura,Studio - Residential,100,12212.19512,2024-04-01
+Eastern Province,Mulayjah,Studio - Residential,1,24000.0,2024-04-01
+Eastern Province,Al Ahsa,Duplex - Residential,31,23082.75862,2024-04-01
+Eastern Province,Al Jubail,Duplex - Residential,3,29666.66667,2024-04-01
+Eastern Province,Al Khobar,Duplex - Residential,172,48322.96154,2024-04-01
+Eastern Province,Dammam,Duplex - Residential,246,44230.66667,2024-04-01
+Eastern Province,Al Qatif,Duplex - Residential,51,27319.9,2024-04-01
+Eastern Province,Al Qaisumah,Duplex - Residential,1,24000.0,2024-04-01
+Eastern Province,Al Nairyah,Duplex - Residential,4,32000.0,2024-04-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,5,15000.0,2024-04-01
+Eastern Province,Ras Tanura,Duplex - Residential,7,25166.66667,2024-04-01
+Eastern Province,Al Ahsa,Floor - Residential,314,17015.07143,2024-04-01
+Eastern Province,Al Jubail,Floor - Residential,44,29517.61765,2024-04-01
+Eastern Province,Al Khobar,Floor - Residential,207,27657.42138,2024-04-01
+Eastern Province,Al Khafji,Floor - Residential,58,21638.88889,2024-04-01
+Eastern Province,Dammam,Floor - Residential,498,27902.38902,2024-04-01
+Eastern Province,Al Dhibiyah,Floor - Residential,8,14640.0,2024-04-01
+Eastern Province,Al Oyoun,Floor - Residential,11,13400.0,2024-04-01
+Eastern Province,Al Qatif,Floor - Residential,58,18747.27273,2024-04-01
+Eastern Province,Al Qaisumah,Floor - Residential,29,15140.90909,2024-04-01
+Eastern Province,Al Nairyah,Floor - Residential,38,21182.75862,2024-04-01
+Eastern Province,Buqayq,Floor - Residential,46,39450.0,2024-04-01
+Eastern Province,Hafar Al Batin,Floor - Residential,382,14921.80374,2024-04-01
+Eastern Province,Ras Tanura,Floor - Residential,33,25609.61538,2024-04-01
+Eastern Province,Samudah,Floor - Residential,1,14400.0,2024-04-01
+Eastern Province,Qaryat Al Ulya,Floor - Residential,3,13733.33333,2024-04-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Floor - Residential,3,19000.0,2024-04-01
+Eastern Province,Mulayjah,Floor - Residential,1,12000.0,2024-04-01
+Eastern Province,Yabrin,Floor - Residential,1,10000.0,2024-04-01
+Eastern Province,Al Ahsa,Apartment - Residential,12893,12717.47123,2024-04-01
+Eastern Province,Al Buwaybiyat,Apartment - Residential,2,18000.0,2024-04-01
+Eastern Province,Al Jubail,Apartment - Residential,7682,18994.49505,2024-04-01
+Eastern Province,Al Khobar,Apartment - Residential,18340,20349.35762,2024-04-01
+Eastern Province,Al Khafji,Apartment - Residential,1681,14435.35312,2024-04-01
+Eastern Province,Dammam,Apartment - Residential,30689,17904.94913,2024-04-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,490,13459.38967,2024-04-01
+Eastern Province,Al Su'ayrah,Apartment - Residential,13,12600.0,2024-04-01
+Eastern Province,Al Oyoun,Apartment - Residential,548,12371.53942,2024-04-01
+Eastern Province,Al Qatif,Apartment - Residential,4030,16157.13523,2024-04-01
+Eastern Province,Al Qaisumah,Apartment - Residential,369,12284.85106,2024-04-01
+Eastern Province,Al Nairyah,Apartment - Residential,1066,15987.19008,2024-04-01
+Eastern Province,Buqayq,Apartment - Residential,554,15971.67606,2024-04-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,7318,12452.47768,2024-04-01
+Eastern Province,Ras Tanura,Apartment - Residential,1216,15523.51135,2024-04-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,100,12649.31507,2024-04-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Apartment - Residential,49,13860.0,2024-04-01
+Eastern Province,Maarij Al Suban,Apartment - Residential,1,12000.0,2024-04-01
+Eastern Province,Mulayjah,Apartment - Residential,39,15325.0,2024-04-01
+Eastern Province,Yabrin,Apartment - Residential,20,17141.17647,2024-04-01
+Eastern Province,Al Ahsa,Villa - Residential,178,24568.70748,2024-04-01
+Eastern Province,Al Jubail,Villa - Residential,92,58835.36585,2024-04-01
+Eastern Province,Al Khobar,Villa - Residential,1072,88365.02174,2024-04-01
+Eastern Province,Al Khafji,Villa - Residential,25,30043.47826,2024-04-01
+Eastern Province,Dammam,Villa - Residential,679,57323.71626,2024-04-01
+Eastern Province,Al Dhibiyah,Villa - Residential,2,22800.0,2024-04-01
+Eastern Province,Al Oyoun,Villa - Residential,3,18000.0,2024-04-01
+Eastern Province,Al Qatif,Villa - Residential,31,28217.24138,2024-04-01
+Eastern Province,Al Qaisumah,Villa - Residential,4,18800.0,2024-04-01
+Eastern Province,Al Nairyah,Villa - Residential,5,28480.0,2024-04-01
+Eastern Province,Buqayq,Villa - Residential,4,30000.0,2024-04-01
+Eastern Province,Hafar Al Batin,Villa - Residential,47,23411.11111,2024-04-01
+Eastern Province,Ras Tanura,Villa - Residential,7,37657.14286,2024-04-01
+Eastern Province,Qaryat Al Ulya,Villa - Residential,2,16200.0,2024-04-01
+Eastern Province,Al Ahsa,Studio - Residential,1059,10433.96912,2024-07-01
+Eastern Province,Al Jubail,Studio - Residential,1063,14378.76374,2024-07-01
+Eastern Province,Al Khobar,Studio - Residential,1794,14750.03894,2024-07-01
+Eastern Province,Al Khafji,Studio - Residential,143,13230.28099,2024-07-01
+Eastern Province,Dammam,Studio - Residential,3928,12326.28634,2024-07-01
+Eastern Province,Al Dhibiyah,Studio - Residential,1,7200.0,2024-07-01
+Eastern Province,Al Oyoun,Studio - Residential,22,12018.18182,2024-07-01
+Eastern Province,Al Qatif,Studio - Residential,173,12796.28472,2024-07-01
+Eastern Province,Al Qaisumah,Studio - Residential,7,14450.0,2024-07-01
+Eastern Province,Al Nairyah,Studio - Residential,77,14301.06383,2024-07-01
+Eastern Province,Buqayq,Studio - Residential,24,12255.55556,2024-07-01
+Eastern Province,Hafar Al Batin,Studio - Residential,462,12023.82671,2024-07-01
+Eastern Province,Ras Tanura,Studio - Residential,88,11770.17241,2024-07-01
+Eastern Province,Qaryat Al Ulya,Studio - Residential,1,12000.0,2024-07-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Studio - Residential,1,6000.0,2024-07-01
+Eastern Province,Al Ahsa,Duplex - Residential,31,21737.93103,2024-07-01
+Eastern Province,Al Jubail,Duplex - Residential,19,33000.0,2024-07-01
+Eastern Province,Al Khobar,Duplex - Residential,149,45326.98529,2024-07-01
+Eastern Province,Al Khafji,Duplex - Residential,3,20400.0,2024-07-01
+Eastern Province,Dammam,Duplex - Residential,317,38182.20495,2024-07-01
+Eastern Province,Al Oyoun,Duplex - Residential,2,17000.0,2024-07-01
+Eastern Province,Al Qatif,Duplex - Residential,30,24046.42857,2024-07-01
+Eastern Province,Al Nairyah,Duplex - Residential,1,18000.0,2024-07-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,11,18509.09091,2024-07-01
+Eastern Province,Ras Tanura,Duplex - Residential,2,20500.0,2024-07-01
+Eastern Province,Al Ahsa,Floor - Residential,354,16552.34007,2024-07-01
+Eastern Province,Al Jubail,Floor - Residential,30,30879.69565,2024-07-01
+Eastern Province,Al Khobar,Floor - Residential,279,28912.33333,2024-07-01
+Eastern Province,Al Khafji,Floor - Residential,96,21502.5,2024-07-01
+Eastern Province,Dammam,Floor - Residential,567,27334.47722,2024-07-01
+Eastern Province,Al Dhibiyah,Floor - Residential,8,13200.0,2024-07-01
+Eastern Province,Al Sadowi,Floor - Residential,1,12000.0,2024-07-01
+Eastern Province,Al Oyoun,Floor - Residential,18,18133.33333,2024-07-01
+Eastern Province,Al Qatif,Floor - Residential,100,17720.27778,2024-07-01
+Eastern Province,Al Qaisumah,Floor - Residential,47,13343.58974,2024-07-01
+Eastern Province,Al Nadhim,Floor - Residential,1,16000.0,2024-07-01
+Eastern Province,Al Nairyah,Floor - Residential,46,25779.59375,2024-07-01
+Eastern Province,Buqayq,Floor - Residential,59,28852.38095,2024-07-01
+Eastern Province,Hafar Al Batin,Floor - Residential,589,15296.99588,2024-07-01
+Eastern Province,Ras Tanura,Floor - Residential,51,20613.15789,2024-07-01
+Eastern Province,Qaryat Al Ulya,Floor - Residential,2,8400.0,2024-07-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Floor - Residential,2,10800.0,2024-07-01
+Eastern Province,Yabrin,Floor - Residential,1,7000.0,2024-07-01
+Eastern Province,Al Ahsa,Apartment - Residential,15062,12804.13045,2024-07-01
+Eastern Province,Al Buwaybiyat,Apartment - Residential,2,15000.0,2024-07-01
+Eastern Province,Al Jubail,Apartment - Residential,7312,19169.90626,2024-07-01
+Eastern Province,Al Khobar,Apartment - Residential,20219,20968.79411,2024-07-01
+Eastern Province,Al Khafji,Apartment - Residential,2209,14204.94344,2024-07-01
+Eastern Province,Dammam,Apartment - Residential,37667,18198.26444,2024-07-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,331,13227.65343,2024-07-01
+Eastern Province,Al Raqi Al Jadidah,Apartment - Residential,2,9500.0,2024-07-01
+Eastern Province,Al Su'ayrah,Apartment - Residential,20,12877.77778,2024-07-01
+Eastern Province,Al Sadowi,Apartment - Residential,1,6000.0,2024-07-01
+Eastern Province,Al Oyoun,Apartment - Residential,691,12296.43581,2024-07-01
+Eastern Province,Al Qatif,Apartment - Residential,5294,16227.87471,2024-07-01
+Eastern Province,Al Qalat,Apartment - Residential,1,9600.0,2024-07-01
+Eastern Province,Al Qaisumah,Apartment - Residential,487,12649.20635,2024-07-01
+Eastern Province,Al Nadhim,Apartment - Residential,3,22666.66667,2024-07-01
+Eastern Province,Al Nairyah,Apartment - Residential,1530,16148.62117,2024-07-01
+Eastern Province,Buqayq,Apartment - Residential,847,15989.62577,2024-07-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,10892,12908.39502,2024-07-01
+Eastern Province,Khubayra,Apartment - Residential,1,12000.0,2024-07-01
+Eastern Province,Ras Tanura,Apartment - Residential,1205,15486.22483,2024-07-01
+Eastern Province,Samudah,Apartment - Residential,1,15000.0,2024-07-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,156,13153.38346,2024-07-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Apartment - Residential,105,13178.88889,2024-07-01
+Eastern Province,Mulayjah,Apartment - Residential,34,15027.27273,2024-07-01
+Eastern Province,Yabrin,Apartment - Residential,41,16706.02857,2024-07-01
+Eastern Province,Al Ahsa,Villa - Residential,195,26954.57862,2024-07-01
+Eastern Province,Al Jubail,Villa - Residential,116,51742.0,2024-07-01
+Eastern Province,Al Khobar,Villa - Residential,1363,87932.61815,2024-07-01
+Eastern Province,Al Khafji,Villa - Residential,18,30013.33333,2024-07-01
+Eastern Province,Dammam,Villa - Residential,810,57485.63022,2024-07-01
+Eastern Province,Al Dhibiyah,Villa - Residential,3,16800.0,2024-07-01
+Eastern Province,Al Oyoun,Villa - Residential,8,25000.0,2024-07-01
+Eastern Province,Al Qatif,Villa - Residential,50,28110.55556,2024-07-01
+Eastern Province,Al Qaisumah,Villa - Residential,2,22000.0,2024-07-01
+Eastern Province,Al Nairyah,Villa - Residential,13,31263.63636,2024-07-01
+Eastern Province,Buqayq,Villa - Residential,10,28333.33333,2024-07-01
+Eastern Province,Hafar Al Batin,Villa - Residential,78,24230.0,2024-07-01
+Eastern Province,Ras Tanura,Villa - Residential,8,29714.28571,2024-07-01
+Eastern Province,Qaryat Al Ulya,Villa - Residential,2,15000.0,2024-07-01
+Eastern Province,Al Ahsa,Studio - Residential,956,10605.65738,2024-10-01
+Eastern Province,Al Jubail,Studio - Residential,1068,14200.73631,2024-10-01
+Eastern Province,Al Khobar,Studio - Residential,1994,14571.61484,2024-10-01
+Eastern Province,Al Khafji,Studio - Residential,89,13892.81579,2024-10-01
+Eastern Province,Dammam,Studio - Residential,4733,12800.30528,2024-10-01
+Eastern Province,Al Dhibiyah,Studio - Residential,1,10900.0,2024-10-01
+Eastern Province,Al Oyoun,Studio - Residential,19,13699.66667,2024-10-01
+Eastern Province,Al Qatif,Studio - Residential,180,11545.0068,2024-10-01
+Eastern Province,Al Qaisumah,Studio - Residential,1,18000.0,2024-10-01
+Eastern Province,Al Nairyah,Studio - Residential,88,16814.87179,2024-10-01
+Eastern Province,Buqayq,Studio - Residential,31,12290.0,2024-10-01
+Eastern Province,Hafar Al Batin,Studio - Residential,257,11710.52632,2024-10-01
+Eastern Province,Ras Tanura,Studio - Residential,80,12355.90909,2024-10-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Studio - Residential,2,20400.0,2024-10-01
+Eastern Province,Al Ahsa,Duplex - Residential,57,26776.36364,2024-10-01
+Eastern Province,Al Jubail,Duplex - Residential,16,31442.85714,2024-10-01
+Eastern Province,Al Khobar,Duplex - Residential,196,47477.65318,2024-10-01
+Eastern Province,Al Khafji,Duplex - Residential,3,27000.0,2024-10-01
+Eastern Province,Dammam,Duplex - Residential,341,39974.55479,2024-10-01
+Eastern Province,Al Oyoun,Duplex - Residential,3,16000.0,2024-10-01
+Eastern Province,Al Qatif,Duplex - Residential,51,28196.40426,2024-10-01
+Eastern Province,Buqayq,Duplex - Residential,1,25000.0,2024-10-01
+Eastern Province,Hafar Al Batin,Duplex - Residential,3,17200.0,2024-10-01
+Eastern Province,Ras Tanura,Duplex - Residential,2,36500.0,2024-10-01
+Eastern Province,Al Ahsa,Floor - Residential,456,18288.98205,2024-10-01
+Eastern Province,Al Jubail,Floor - Residential,48,64819.96667,2024-10-01
+Eastern Province,Al Khobar,Floor - Residential,273,32587.52489,2024-10-01
+Eastern Province,Al Khafji,Floor - Residential,89,21938.48101,2024-10-01
+Eastern Province,Dammam,Floor - Residential,659,28844.75514,2024-10-01
+Eastern Province,Al Dhibiyah,Floor - Residential,5,12000.0,2024-10-01
+Eastern Province,Al Su'ayrah,Floor - Residential,1,12000.0,2024-10-01
+Eastern Province,Al Oyoun,Floor - Residential,16,17933.33333,2024-10-01
+Eastern Province,Al Qatif,Floor - Residential,110,23264.97959,2024-10-01
+Eastern Province,Al Qaisumah,Floor - Residential,50,13645.45455,2024-10-01
+Eastern Province,Al Nairyah,Floor - Residential,51,19606.4878,2024-10-01
+Eastern Province,Umm Ghalib,Floor - Residential,1,6000.0,2024-10-01
+Eastern Province,Buqayq,Floor - Residential,72,27810.48148,2024-10-01
+Eastern Province,Hafar Al Batin,Floor - Residential,605,14913.71283,2024-10-01
+Eastern Province,Ras Tanura,Floor - Residential,56,23607.31707,2024-10-01
+Eastern Province,Qaryat Al Ulya,Floor - Residential,1,30000.0,2024-10-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Floor - Residential,3,16866.66667,2024-10-01
+Eastern Province,Al Ahsa,Apartment - Residential,16275,12971.11022,2024-10-01
+Eastern Province,Al Jubail,Apartment - Residential,8951,19322.1945,2024-10-01
+Eastern Province,Al Khobar,Apartment - Residential,22708,20695.46025,2024-10-01
+Eastern Province,Al Khafji,Apartment - Residential,2095,14337.45206,2024-10-01
+Eastern Province,Dammam,Apartment - Residential,39212,18469.11369,2024-10-01
+Eastern Province,Al Dhibiyah,Apartment - Residential,356,13520.84337,2024-10-01
+Eastern Province,Al Su'ayrah,Apartment - Residential,13,13333.33333,2024-10-01
+Eastern Province,Al Sadowi,Apartment - Residential,1,9000.0,2024-10-01
+Eastern Province,Al Oyoun,Apartment - Residential,598,12586.57053,2024-10-01
+Eastern Province,Al Qatif,Apartment - Residential,4849,16834.15562,2024-10-01
+Eastern Province,Al Qalat,Apartment - Residential,2,13800.0,2024-10-01
+Eastern Province,Al Qaisumah,Apartment - Residential,407,12057.23565,2024-10-01
+Eastern Province,Al Nairyah,Apartment - Residential,1347,15955.51885,2024-10-01
+Eastern Province,Buqayq,Apartment - Residential,778,16613.00733,2024-10-01
+Eastern Province,Hafar Al Batin,Apartment - Residential,8602,12460.04764,2024-10-01
+Eastern Province,Khubayra,Apartment - Residential,1,6000.0,2024-10-01
+Eastern Province,Darb Al Ibl,Apartment - Residential,1,18000.0,2024-10-01
+Eastern Province,Ras Tanura,Apartment - Residential,1283,15422.85685,2024-10-01
+Eastern Province,Samudah,Apartment - Residential,2,18000.0,2024-10-01
+Eastern Province,Qaryat Al Ulya,Apartment - Residential,107,12507.33696,2024-10-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Apartment - Residential,95,12551.89873,2024-10-01
+Eastern Province,Mulayjah,Apartment - Residential,58,14052.75,2024-10-01
+Eastern Province,Yabrin,Apartment - Residential,21,17190.47619,2024-10-01
+Eastern Province,Al Ahsa,Villa - Residential,258,27325.11163,2024-10-01
+Eastern Province,Al Jubail,Villa - Residential,134,59045.86777,2024-10-01
+Eastern Province,Al Khobar,Villa - Residential,1260,81566.40084,2024-10-01
+Eastern Province,Al Khafji,Villa - Residential,25,28161.90476,2024-10-01
+Eastern Province,Dammam,Villa - Residential,986,57581.59341,2024-10-01
+Eastern Province,Al Dhibiyah,Villa - Residential,6,22200.0,2024-10-01
+Eastern Province,Al Oyoun,Villa - Residential,3,10666.66667,2024-10-01
+Eastern Province,Al Qatif,Villa - Residential,41,30805.71429,2024-10-01
+Eastern Province,Al Nairyah,Villa - Residential,15,31066.66667,2024-10-01
+Eastern Province,Buqayq,Villa - Residential,10,39300.0,2024-10-01
+Eastern Province,Hafar Al Batin,Villa - Residential,61,23156.86275,2024-10-01
+Eastern Province,Ras Tanura,Villa - Residential,16,36392.30769,2024-10-01
+Eastern Province,Qaryat Al Ulya,Villa - Residential,1,9600.0,2024-10-01
+Eastern Province,Qaryat Al Ulya - Al Rafi'ah,Villa - Residential,1,24000.0,2024-10-01
