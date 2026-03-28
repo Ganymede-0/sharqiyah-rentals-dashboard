@@ -1,339 +1,304 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import os
+import joblib
 
 # ── Config ────────────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Eastern Province Rental Market",
-    page_icon="🏠",
+    page_icon="",
     layout="wide",
 )
 
-# # ── Load data ─────────────────────────────────────────────────────────────────
-# @st.cache_data
-# def load_data():
-#     df = pd.read_csv("_Rental indicators for cities in Eastern Province_.csv")
-#     df["Date"]     = pd.to_datetime(df["Date"])
-#     df["year"]     = df["Date"].dt.year
-#     df["quarter"]  = df["Date"].dt.quarter
-#     df["period"]   = df["year"].astype(str) + "-Q" + df["quarter"].astype(str)
-#     df["category"] = df["category"].str.replace(" - Residential", "", regex=False)
-#     return df
 
-# df = load_data()
-
-
-# ── Load data ─────────────────────────────────────────────────────────────────
+# ── Asset Loading (Cached for Speed) ──────────────────────────────────────────
 @st.cache_data
 def load_data():
-    # 1. Find the exact folder where this dashboard.py file is living
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    
-    # 2. Glue that folder path to your exact dataset name
     file_path = os.path.join(current_dir, "cleaned_sharqiyah_rentals.csv")
     
-    # 3. Force Pandas to open that exact, absolute path
     df = pd.read_csv(file_path)
     
-    # 4. Your normal cleaning steps
     df["Date"]     = pd.to_datetime(df["Date"])
     df["year"]     = df["Date"].dt.year
     df["quarter"]  = df["Date"].dt.quarter
     df["period"]   = df["year"].astype(str) + "-Q" + df["quarter"].astype(str)
-    df["category"] = df["category"].str.replace(" - Residential", "", regex=False)
+    # We keep the original category in a hidden column to feed the AI later if needed
+    df["category_clean"] = df["category"].str.replace(" - Residential", "", regex=False)
     
     return df
 
+@st.cache_resource
+def load_ai_models():
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    model_path = os.path.join(current_dir, "final_model.pkl")
+    encoder_path = os.path.join(current_dir, "encoder.pkl")
+    
+    model = joblib.load(model_path)
+    encoder = joblib.load(encoder_path)
+    
+    return model, encoder
+
+# Load everything into memory
 df = load_data()
+catboost_model, encoder = load_ai_models()
 
-# ── Sidebar filters ───────────────────────────────────────────────────────────
-with st.sidebar:
-    st.header("Filters")
+# ── Main UI Header ────────────────────────────────────────────────────────────
 
+st.markdown(
+    "<h1><span style='color: #ff4b4b;'>Sharqiyah Rental Monitor</span>: Regional Analysis & Long-Term Forecasting of Eastern Province Housing Trends</h1>", 
+    unsafe_allow_html=True
+)
+st.markdown(
+    "<p style='font-size: 20px; '>A comprehensive market analysis and predictive pricing tool powered by Machine Learning.</p>", 
+    unsafe_allow_html=True
+)
+
+st.divider()
+
+import streamlit as st
+
+# 1. Inject custom CSS to target the tab text
+st.markdown(
+    """
+    <style>
+    /* Target the text inside the Streamlit tabs */
+    .stTabs [data-baseweb="tab-list"] button [data-testid="stMarkdownContainer"] p {
+        font-size: 22px; /* Change this value to make it bigger or smaller */
+        font-weight: bold; /* Optional: makes the text bold */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# ── Tabs Setup ────────────────────────────────────────────────────────────────
+tab1, tab2 = st.tabs(["Historical Market Analysis", "AI Price Estimator"])
+
+
+# ==============================================================================
+# TAB 1: MARKET ANALYSIS (EDA)
+# ==============================================================================
+with tab1:
+    st.markdown("### Market Filters")
+    
+    # Put filters in columns for a cleaner layout
+    colA, colB, colC = st.columns(3)
     all_cities = sorted(df["city"].unique())
-    sel_cities = st.multiselect("City", all_cities, default=all_cities)
+    sel_cities = colA.multiselect("City", all_cities, default=all_cities)
 
-    all_cats = sorted(df["category"].unique())
-    sel_cats = st.multiselect("Property type", all_cats, default=all_cats)
+    all_cats = sorted(df["category_clean"].unique())
+    sel_cats = colB.multiselect("Property type", all_cats, default=all_cats)
 
     y_min, y_max = int(df["year"].min()), int(df["year"].max())
-    yr = st.slider("Year range", y_min, y_max, (y_min, y_max))
+    yr = colC.slider("Year range", y_min, y_max, (y_min, y_max))
+
+    # Apply Filters
+    dff = df[
+        df["city"].isin(sel_cities) &
+        df["category_clean"].isin(sel_cats) &
+        df["year"].between(yr[0], yr[1])
+    ]
+
+    st.caption(f"Showing **{len(dff):,}** filtered records.")
+    
+    # ── KPIs ──────────────────────────────────────────────────────────────────
+    total_deals = int(dff["total_deals"].sum())
+    avg_price   = dff["average"].mean() if not dff.empty else 0
+    top_city    = dff.groupby("city")["total_deals"].sum().idxmax() if not dff.empty else "—"
+    top_cat     = dff.groupby("category_clean")["total_deals"].sum().idxmax() if not dff.empty else "—"
+    min_price_city = dff.groupby("city")["average"].mean().idxmin() if not dff.empty else "—"
+
+    k1, k2, k3, k4, k5 = st.columns(5)
+    k1.metric("Total transactions", f"{total_deals:,}")
+    k2.metric("Avg rental price",   f"{avg_price:,.0f} SAR")
+    k3.metric("Top city by volume", top_city)
+    k4.metric("Top property type",  top_cat)
+    k5.metric("Most affordable city", min_price_city)
 
     st.divider()
-    st.caption("Eastern Province · Saudi Open Data Portal · 2019–2024")
 
-# ── Filter ────────────────────────────────────────────────────────────────────
-dff = df[
-    df["city"].isin(sel_cities) &
-    df["category"].isin(sel_cats) &
-    df["year"].between(yr[0], yr[1])
-]
+    # ── Row 1: Trend + Donut ──────────────────────────────────────────────────
+    c1, c2 = st.columns([2, 1])
 
-# ── Header ────────────────────────────────────────────────────────────────────
-st.title("🏠 Eastern Province Rental Market")
-st.caption(f"Showing **{len(dff):,}** records · {yr[0]}–{yr[1]}")
-st.divider()
+    with c1:
+        st.subheader("Price & volume over time")
+        st.caption("Prices peaked at ~26,000 SAR in 2020-Q3 likely a COVID-era demand shock then stabilised at 19,000–21,000 SAR.")
 
-# ── KPIs ──────────────────────────────────────────────────────────────────────
-total_deals = int(dff["total_deals"].sum())
-avg_price   = dff["average"].mean() if not dff.empty else 0
-top_city    = dff.groupby("city")["total_deals"].sum().idxmax() if not dff.empty else "—"
-top_cat     = dff.groupby("category")["total_deals"].sum().idxmax() if not dff.empty else "—"
-min_price_city = dff.groupby("city")["average"].mean().idxmin() if not dff.empty else "—"
+        ts = (
+            dff.groupby("Date")
+            .agg(avg_price=("average", "mean"), total_deals=("total_deals", "sum"))
+            .reset_index().sort_values("Date")
+        )
+        fig = make_subplots(specs=[[{"secondary_y": True}]])
+        fig.add_trace(go.Scatter(
+            x=ts["Date"], y=ts["avg_price"].round(0),
+            name="Avg price (SAR)", mode="lines+markers",
+            line=dict(color="#185FA5", width=2.5), marker=dict(size=4),
+            fill="tozeroy", fillcolor="rgba(24,95,165,0.07)",
+        ), secondary_y=False)
+        fig.add_trace(go.Bar(
+            x=ts["Date"], y=ts["total_deals"],
+            name="Transactions", marker_color="rgba(151,196,89,0.65)",
+        ), secondary_y=True)
+        fig.update_layout(
+            height=320, margin=dict(l=0, r=0, t=10, b=0),
+            legend=dict(orientation="h", y=1.08, x=0),
+            hovermode="x unified",
+        )
+        fig.update_yaxes(title_text="Avg price (SAR)", secondary_y=False, tickformat=",")
+        fig.update_yaxes(title_text="Transactions",    secondary_y=True,  tickformat=",")
+        st.plotly_chart(fig, use_container_width=True)
 
-k1, k2, k3, k4, k5 = st.columns(5)
-k1.metric("Total transactions", f"{total_deals:,}")
-k2.metric("Avg rental price",   f"{avg_price:,.0f} SAR")
-k3.metric("Top city by volume", top_city)
-k4.metric("Top property type",  top_cat)
-k5.metric("Most affordable city", min_price_city)
+    with c2:
+        st.subheader("Share by property type")
+        st.caption("Apartments account for 87.8% of all deals. The market is overwhelmingly budget residential.")
+        cat_df = dff.groupby("category_clean")["total_deals"].sum().reset_index()
+        fig = px.pie(cat_df, names="category_clean", values="total_deals",
+                     hole=0.55, color_discrete_sequence=px.colors.qualitative.Set2)
+        fig.update_traces(textposition="outside", textinfo="percent+label",
+                          hovertemplate="%{label}: %{value:,}<extra></extra>")
+        fig.update_layout(height=320, margin=dict(l=0, r=0, t=10, b=0), showlegend=False)
+        st.plotly_chart(fig, use_container_width=True)
 
-st.divider()
+    st.divider()
 
+    # ── Row 2: City bars ──────────────────────────────────────────────────────
+    c3, c4 = st.columns(2)
 
-# ── Row 1: Trend + Donut ──────────────────────────────────────────────────────
-c1, c2 = st.columns([2, 1])
-
-with c1:
-    st.subheader("Price & volume over time")
-    st.caption("Prices peaked at ~26,000 SAR in 2020-Q3 likely a COVID-era demand shock then stabilised at 19,000–21,000 SAR.")
-
-    ts = (
-        dff.groupby("Date")
-        .agg(avg_price=("average", "mean"), total_deals=("total_deals", "sum"))
-        .reset_index().sort_values("Date")
+    city_sum = (
+        dff.groupby("city")
+        .agg(total_deals=("total_deals", "sum"), avg_price=("average", "mean"))
+        .reset_index()
     )
-    fig = make_subplots(specs=[[{"secondary_y": True}]])
-    fig.add_trace(go.Scatter(
-        x=ts["Date"], y=ts["avg_price"].round(0),
-        name="Avg price (SAR)", mode="lines+markers",
-        line=dict(color="#185FA5", width=2.5), marker=dict(size=4),
-        fill="tozeroy", fillcolor="rgba(24,95,165,0.07)",
-    ), secondary_y=False)
-    fig.add_trace(go.Bar(
-        x=ts["Date"], y=ts["total_deals"],
-        name="Transactions", marker_color="rgba(151,196,89,0.65)",
-    ), secondary_y=True)
-    fig.update_layout(
-        height=320, margin=dict(l=0, r=0, t=10, b=0),
-        legend=dict(orientation="h", y=1.08, x=0),
-        hovermode="x unified",
-    )
-    fig.update_yaxes(title_text="Avg price (SAR)", secondary_y=False, tickformat=",")
-    fig.update_yaxes(title_text="Transactions",    secondary_y=True,  tickformat=",")
-    st.plotly_chart(fig, use_container_width=True)
+    bar_h = max(300, len(city_sum) * 26 + 60)
 
-with c2:
-    st.subheader("Share by property type")
-    st.caption("Apartments account for 87.8% of all deals, the market is overwhelmingly budget residential. Villas and duplexes are rare but command premium prices.")
-    cat_df = dff.groupby("category")["total_deals"].sum().reset_index()
-    fig = px.pie(cat_df, names="category", values="total_deals",
-                 hole=0.55, color_discrete_sequence=px.colors.qualitative.Set2)
-    fig.update_traces(textposition="outside", textinfo="percent+label",
-                      hovertemplate="%{label}: %{value:,}<extra></extra>")
-    fig.update_layout(height=320, margin=dict(l=0, r=0, t=10, b=0), showlegend=False)
-    st.plotly_chart(fig, use_container_width=True)
-
-st.divider()
-
-# ── Row 2: City bars ──────────────────────────────────────────────────────────
-c3, c4 = st.columns(2)
-
-city_sum = (
-    dff.groupby("city")
-    .agg(total_deals=("total_deals", "sum"), avg_price=("average", "mean"))
-    .reset_index()
-)
-bar_h = max(300, len(city_sum) * 26 + 60)
-
-with c3:
-    st.subheader("Transactions by city")
-    st.caption("Dammam dominates with 581K deals. Activity drops sharply after the top 5 cities.")
-
-    d = city_sum.sort_values("total_deals", ascending=True)
-    fig = px.bar(d, x="total_deals", y="city", orientation="h",
-                 color="total_deals",
-                 color_continuous_scale=[[0,"#B5D4F4"],[1,"#0C447C"]],
-                 text=d["total_deals"].apply(lambda v: f"{v/1e3:.0f}K" if v>=1000 else str(v)),
-                 labels={"total_deals":"Total deals","city":""})
-    fig.update_traces(textposition="outside")
-    fig.update_layout(height=bar_h, margin=dict(l=0,r=40,t=10,b=0),
-                      coloraxis_showscale=False, xaxis=dict(tickformat=","))
-    st.plotly_chart(fig, use_container_width=True)
-
-with c4:
-    st.subheader("Average Rental price by city (SAR)")
-    st.caption("Al Khobar is the most expensive city at 38,673 SAR driven by premium and expat housing. Manakh is the most affordable at 6,700 SAR.")
-    d = city_sum.sort_values("avg_price", ascending=True)
-    fig = px.bar(d, x="avg_price", y="city", orientation="h",
-                 color="avg_price",
-                 color_continuous_scale=[[0,"#FAC775"],[1,"#633806"]],
-                 text=d["avg_price"].apply(lambda v: f"{v:,.0f}"),
-                 labels={"avg_price":"Avg price (SAR)","city":""})
-    fig.update_traces(textposition="outside")
-    fig.update_layout(height=bar_h, margin=dict(l=0,r=60,t=10,b=0),
-                      coloraxis_showscale=False, xaxis=dict(tickformat=","))
-    st.plotly_chart(fig, use_container_width=True)
-
-st.divider()
-
-# ── Row 3: Category price bar + Scatter ───────────────────────────────────────
-c5, c6 = st.columns(2)
-
-with c5:
-    st.subheader("Average price by property type (SAR)")
-    st.caption("Villas average 37,382 SAR nearly 3× the apartment average. Studios barely undercut apartments with only a 1,228 SAR gap.")
-
-    d = (dff.groupby("category")["average"].mean().reset_index()
-           .rename(columns={"average":"avg_price"})
-           .sort_values("avg_price", ascending=True))
-    fig = px.bar(d, x="avg_price", y="category", orientation="h",
-                 color="avg_price",
-                 color_continuous_scale=[[0,"#9FE1CB"],[1,"#085041"]],
-                 text=d["avg_price"].apply(lambda v: f"{v:,.0f}"),
-                 labels={"avg_price":"Avg price (SAR)","category":""})
-    fig.update_traces(textposition="outside")
-    fig.update_layout(height=260, margin=dict(l=0,r=60,t=10,b=0),
-                      coloraxis_showscale=False, xaxis=dict(tickformat=","))
-    st.plotly_chart(fig, use_container_width=True)
-
-with c6:
-
-    
-    st.subheader("City: deals vs. price")
-    st.caption("high-volume cities like Dammam are budget-driven, while premium cities like Al Khobar have fewer but far more expensive deals.")
-    
-    fig = px.scatter(city_sum, x="total_deals", y="avg_price",
-                     text="city", size="total_deals", size_max=45,
-                     color="avg_price",
+    with c3:
+        st.subheader("Transactions by city")
+        st.caption("Dammam dominates with massive transaction volume.")
+        d = city_sum.sort_values("total_deals", ascending=True)
+        fig = px.bar(d, x="total_deals", y="city", orientation="h",
+                     color="total_deals",
                      color_continuous_scale=[[0,"#B5D4F4"],[1,"#0C447C"]],
-                     labels={"total_deals":"Total deals","avg_price":"Avg price (SAR)"})
-    fig.update_traces(textposition="top center",
-                      hovertemplate="<b>%{text}</b><br>Deals: %{x:,}<br>Price: %{y:,.0f} SAR<extra></extra>")
-    fig.update_layout(height=260, margin=dict(l=0,r=0,t=10,b=0),
-                      coloraxis_showscale=False,
-                      xaxis=dict(tickformat=","), yaxis=dict(tickformat=","))
-    st.plotly_chart(fig, use_container_width=True)
+                     text=d["total_deals"].apply(lambda v: f"{v/1e3:.0f}K" if v>=1000 else str(v)),
+                     labels={"total_deals":"Total deals","city":""})
+        fig.update_traces(textposition="outside")
+        fig.update_layout(height=bar_h, margin=dict(l=0,r=40,t=10,b=0),
+                          coloraxis_showscale=False, xaxis=dict(tickformat=","))
+        st.plotly_chart(fig, use_container_width=True)
+
+    with c4:
+        st.subheader("Average Rental price by city (SAR)")
+        st.caption("Al Khobar is the most expensive city at 38,673 SAR.")
+        d = city_sum.sort_values("avg_price", ascending=True)
+        fig = px.bar(d, x="avg_price", y="city", orientation="h",
+                     color="avg_price",
+                     color_continuous_scale=[[0,"#FAC775"],[1,"#633806"]],
+                     text=d["avg_price"].apply(lambda v: f"{v:,.0f}"),
+                     labels={"avg_price":"Avg price (SAR)","city":""})
+        fig.update_traces(textposition="outside")
+        fig.update_layout(height=bar_h, margin=dict(l=0,r=60,t=10,b=0),
+                          coloraxis_showscale=False, xaxis=dict(tickformat=","))
+        st.plotly_chart(fig, use_container_width=True)
+
+    st.divider()
+
+    # ── Row 3: Outliers & Heatmap ─────────────────────────────────────────────
+    st.subheader("Outlier Detection")
+    ob1, ob2 = st.columns(2)
+
+    with ob1:
+        fig_out1 = px.box(dff, y="average",
+                          labels={"average": "Average Rental Price (SAR)"},
+                          title="Rental Price Distribution")
+        fig_out1.update_traces(marker_color="#185FA5",
+                               hovertemplate="Price: %{y:,.0f} SAR<extra></extra>")
+        fig_out1.update_layout(height=300, margin=dict(l=0, r=0, t=30, b=0),
+                               yaxis=dict(tickformat=","))
+        st.plotly_chart(fig_out1, use_container_width=True)
+
+    with ob2:
+        fig_out2 = px.box(dff, y="total_deals",
+                          labels={"total_deals": "Total Deals"},
+                          title="Transaction Volume Distribution")
+        fig_out2.update_traces(marker_color="#D85A30",
+                               hovertemplate="Deals: %{y:,}<extra></extra>")
+        fig_out2.update_layout(height=300, margin=dict(l=0, r=0, t=30, b=0),
+                               yaxis=dict(tickformat=","))
+        st.plotly_chart(fig_out2, use_container_width=True)
+
+# ==============================================================================
+# TAB 2: AI PRICE ESTIMATOR (CATBOOST)
+# ==============================================================================
+with tab2:
+    st.markdown("### Predictive Pricing Engine")
+    st.markdown("Utilize our highly-tuned CatBoost Regressor to estimate fair-market rental prices based on real estate parameters.")
     
+    with st.form("ai_prediction_form"):
+        col1, col2 = st.columns(2)
+        
+        # We use the raw category clean names for the UI, but will append "- Residential" for the AI
+        user_city = col1.selectbox("City Location", sorted(df['city'].unique()))
+        user_category = col2.selectbox("Property Type", sorted(df['category_clean'].unique()))
+        
+        # col3, col4, col5 = st.columns(3)
+        # user_year = col3.selectbox("Forecasting Year", [2024, 2025, 2026, 2027])
+        # user_quarter = col4.selectbox("Quarter", [1, 2, 3, 4])
+        # user_deals = col5.number_input("Est. Transaction Volume (Demand)", min_value=1, max_value=50000, value=50)
+        col3, col4, col5, col6 = st.columns(4)
+        user_year = col3.selectbox("Forecasting Year", [2024, 2025, 2026, 2027])
+        user_quarter = col4.selectbox("Quarter", [1, 2, 3, 4])
+        user_deals = col5.number_input("Est. Demand (Deals)", min_value=1, max_value=50000, value=50)
+        user_growth = col6.slider("Expected Annual Growth (%)", min_value=-5.0, max_value=15.0, value=3.5, step=0.5)
 
-st.divider()
+        submit_prediction = st.form_submit_button("Calculate Market Price", type="primary", use_container_width=True)
+        
+if submit_prediction:
+        # 1. Cap the AI model year at 2024 (its maximum historical knowledge)
+        # This gets the most accurate "Base Value" before forecasting
+        model_year = min(user_year, 2024)
+        
+        input_data = pd.DataFrame({
+            'region': ['Eastern Province'],
+            'city': [user_city],
+            'category': [f"{user_category} - Residential"],
+            'total_deals': [user_deals],
+            'year': [model_year],       
+            'quarter': [user_quarter]  
+        })
+        
+        try:
+            # 2. Process through the saved ColumnTransformer
+            encoded_input = encoder.transform(input_data)
+            
+            # 3. Predict the Base Value using CatBoost
+            log_prediction = catboost_model.predict(encoded_input)[0]
+            base_price = np.expm1(log_prediction)
+            
 
+            # 4. THE FORECASTING ENGINE (Dynamic Scenario Analysis)
+            if user_year > 2024:
+                years_ahead = user_year - 2024
+                # Convert the slider percentage (e.g., 3.5) into a decimal (0.035)
+                growth_decimal = user_growth / 100.0 
+                final_price = base_price * ((1 + growth_decimal) ** years_ahead)
+                trend_msg = f"Includes a user-defined {user_growth}% annualized market forecast compounded over {years_ahead} year(s)."
+            else:
+                final_price = base_price
+                trend_msg = "Based purely on historical market data (No future growth applied)."
 
-# ── Row 0b: Outlier Detection (notebook §4.4) ─────────────────────────────────
-st.subheader("Outlier Detection")
-ob1, ob2 = st.columns(2)
-
-with ob1:
-    fig_out1 = px.box(dff, y="average",
-                      labels={"average": "Average Rental Price (SAR)"},
-                      title="Rental Price Distribution")
-    fig_out1.update_traces(marker_color="#185FA5",
-                           hovertemplate="Price: %{y:,.0f} SAR<extra></extra>")
-    fig_out1.update_layout(height=300, margin=dict(l=0, r=0, t=30, b=0),
-                           yaxis=dict(tickformat=","))
-    st.plotly_chart(fig_out1, use_container_width=True)
-
-with ob2:
-    fig_out2 = px.box(dff, y="total_deals",
-                      labels={"total_deals": "Total Deals"},
-                      title="Transaction Volume Distribution")
-    fig_out2.update_traces(marker_color="#D85A30",
-                           hovertemplate="Deals: %{y:,}<extra></extra>")
-    fig_out2.update_layout(height=300, margin=dict(l=0, r=0, t=30, b=0),
-                           yaxis=dict(tickformat=","))
-    st.plotly_chart(fig_out2, use_container_width=True)
-
-st.caption("Dots beyond the whiskers are outliers. Luxury villas push rental prices up to 180,000 SAR. Major cities (Dammam) drive transaction volume spikes up to 39,000 deals per record.")
-
-st.divider()
-
-# ── Row 0c: Correlation Heatmap (notebook §4.8) ───────────────────────────────
-st.subheader("Correlation Between Rental Deals and Average Price")
-st.caption("Weak negative correlation (r = −0.075) cities with the most transactions tend to have lower average prices, confirming the market is volume-driven by budget apartments, not premium units.")
-
-cc1, cc2 = st.columns([1, 2])
-
-with cc1:
-    corr = dff[["total_deals", "average"]].corr().round(3)
-    fig_corr = px.imshow(
-        corr,
-        text_auto=True,
-        color_continuous_scale=[[0, "#042C53"], [0.5, "#EBF5FB"], [1, "#A32D2D"]],
-        zmin=-1, zmax=1,
-        labels=dict(color="Correlation"),
-        aspect="auto",
-    )
-    fig_corr.update_layout(height=260, margin=dict(l=0, r=0, t=10, b=0))
-    fig_corr.update_traces(textfont=dict(size=14))
-    st.plotly_chart(fig_corr, use_container_width=True)
-
-with cc2:
-    sample = dff.sample(min(500, len(dff)), random_state=42) if len(dff) > 500 else dff
-    fig_sc = px.scatter(
-        sample, x="total_deals", y="average",
-        color="category",
-        opacity=0.55,
-        color_discrete_sequence=px.colors.qualitative.Set2,
-        labels={"total_deals": "Total Deals", "average": "Avg Price (SAR)", "category": "Type"},
-    )
-    fig_sc.update_layout(height=260, margin=dict(l=0, r=0, t=10, b=0),
-                         xaxis=dict(tickformat=","), yaxis=dict(tickformat=","),
-                         legend=dict(orientation="h", y=1.1, x=0, font=dict(size=10)))
-    st.plotly_chart(fig_sc, use_container_width=True)
-
-st.divider()
-
-# ── Row 4: Heatmap — avg price by city × year ─────────────────────────────────
-st.subheader("Average price heatmap city × year (SAR)")
-st.caption("Al Khobar maintains consistently high prices (37–39K SAR) across all years. Buqayq and Ras Tanura dropped sharply after 2020. Darker blue = higher average price.")
-
-heat = (
-    dff.groupby(["city", "year"])["average"].mean().reset_index()
-)
-# Keep only cities with enough data across years
-city_counts = heat.groupby("city")["year"].count()
-top_cities  = city_counts[city_counts >= 3].index.tolist()
-heat = heat[heat["city"].isin(top_cities)]
-pivot = heat.pivot(index="city", columns="year", values="average").round(0)
-
-fig = px.imshow(
-    pivot,
-    color_continuous_scale=[[0,"#EBF5FB"],[0.5,"#185FA5"],[1,"#042C53"]],
-    labels=dict(x="Year", y="City", color="Avg price (SAR)"),
-    text_auto=True,
-    aspect="auto",
-)
-fig.update_layout(height=max(300, len(top_cities)*28+80), margin=dict(l=0,r=0,t=10,b=0))
-st.plotly_chart(fig, use_container_width=True)
-
-st.divider()
-
-# ── Row 5: Summary table ──────────────────────────────────────────────────────
-st.subheader("Yearly summary")
-st.caption("Transaction volume grew 6× from 2019 to 2024. Prices peaked in 2020 (+3.6% YoY) then fell through 2023 before a modest 2024 recovery (+5.6%).")
-
-yearly = (
-    dff.groupby("year")
-    .agg(total_deals=("total_deals","sum"), avg_price=("average","mean"))
-    .reset_index()
-    .rename(columns={"year":"Year","total_deals":"Total deals","avg_price":"Avg price (SAR)"})
-)
-yearly["Year"]            = yearly["Year"].astype(str)
-yearly["Total deals"]     = yearly["Total deals"].astype(int)
-yearly["Avg price (SAR)"] = yearly["Avg price (SAR)"].round(0).astype(int)
-yearly["YoY deals"]       = yearly["Total deals"].pct_change().mul(100).round(1)
-yearly["YoY price"]       = yearly["Avg price (SAR)"].pct_change().mul(100).round(1)
-
-st.dataframe(
-    yearly.set_index("Year"),
-    use_container_width=True,
-    column_config={
-        "Total deals":     st.column_config.NumberColumn(format="%d"),
-        "Avg price (SAR)": st.column_config.NumberColumn(format="%d SAR"),
-        "YoY deals":       st.column_config.NumberColumn("YoY deals %",  format="%.1f%%"),
-        "YoY price":       st.column_config.NumberColumn("YoY price %",  format="%.1f%%"),
-    },
-)
+            st.success("AI Forecasting Complete")
+            
+            # Output Display
+            res_col1, res_col2 = st.columns([1, 2])
+            with res_col1:
+                st.metric("Estimated Fair Market Value", f"{final_price:,.0f} SAR")
+            with res_col2:
+                st.info(f"**Insight:** A {user_category} in {user_city} with demand of {user_deals} deals in Q{user_quarter} {user_year}. \n\n**Forecasting Note:** {trend_msg}")
+                
+        except Exception as e:
+            st.error(f"Error during prediction pipeline: {e}")
