@@ -1,10 +1,10 @@
 An end-to-end data science project and interactive web application that analyzes historical real estate transactions in Saudi Arabia’s Eastern Province (Sharqiyah) and deploys an AI-powered pricing engine for investors.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](INSERT_YOUR_LIVE_STREAMLIT_LINK_HERE)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sharqiyah-rentals-dashboard-sf8t3e6zhiwpeynryplk2w.streamlit.app/)
 
 ### Quick Links
-* **Live Web App:** [Access the Dashboard Here](INSERT_YOUR_LIVE_STREAMLIT_LINK_HERE)
-* **Raw Dataset:** [Saudi Open Data Portal](https://open.data.gov.sa/en/datasets/view/a108fled-0091-4264-bb82-71a4ad0989f8/resources)
+* **Live Web App:** [Access the Dashboard Here](https://sharqiyah-rentals-dashboard-sf8t3e6zhiwpeynryplk2w.streamlit.app/)
+* **Raw Dataset:** [Saudi Open Data Portal](https://open.data.gov.sa/en/datasets/view/a108f1ed-0091-4264-bb82-71a4ad0989f8/resources)
 
 ---
 
