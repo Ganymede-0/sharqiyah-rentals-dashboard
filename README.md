@@ -64,7 +64,7 @@ To solve this for real estate investors, this application utilizes a **Hybrid Fo
 
 ## How to Run Locally
 
-If you wish to run this dashboard on your own machine:
+If you wish to run this dashboard on your own :)
 
 1. Clone this repository:
    ```bash
